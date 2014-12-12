@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <WebView
+        android:id="@+id/notice_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/layout/activity_pdf_notice.xml -->
