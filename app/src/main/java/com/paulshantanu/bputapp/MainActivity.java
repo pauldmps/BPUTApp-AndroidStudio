@@ -23,6 +23,11 @@ import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v4.widget.SwipeRefreshLayout.OnRefreshListener;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.DefaultItemAnimator;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -34,39 +39,49 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class MainActivity extends Activity implements OnRefreshListener,AsyncTaskListener {
+public class MainActivity extends ActionBarActivity implements OnRefreshListener,AsyncTaskListener {
 
 	SaxParserHandler handler;
-	ListView lv;
 	SwipeRefreshLayout mSwipeRefreshLayout;
-	SwipeRefreshHintLayout mSwipeRefreshHintLayout;
-    ButteryProgressBar progressBar;
+    RecyclerView mRecyclerView;
+    RecyclerView.LayoutManager mLayoutManager;
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main); 		
-		progressBar = ButteryProgressBar.getInstance(MainActivity.this);
-		getActionBar().setIcon(getResources().getDrawable(R.drawable.ic_launcher));    
+		setContentView(R.layout.activity_main);
+
+        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+		//getSupportActionBar().setIcon(getResources().getDrawable(R.drawable.ic_launcher));
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //getSupportActionBar().setHomeButtonEnabled(true);
+
 		
 	
 		mSwipeRefreshLayout = (SwipeRefreshLayout)findViewById(R.id.swipe_container);
- 	    mSwipeRefreshHintLayout = (SwipeRefreshHintLayout)findViewById(R.id.swipe_hint);
- 	    mSwipeRefreshHintLayout.setSwipeLayoutTarget(mSwipeRefreshLayout);
  	    mSwipeRefreshLayout.setOnRefreshListener(this);
- 	    mSwipeRefreshLayout.setColorScheme(R.color.theme_red,android.R.color.transparent,android.R.color.transparent,android.R.color.transparent);
-		checkConnectivity();
+ 	    mSwipeRefreshLayout.setColorSchemeColors(getResources().getColor(R.color.theme_red),getResources().getColor(R.color.theme_accent),getResources().getColor(R.color.theme_red),getResources().getColor(R.color.theme_accent));
+
+        mRecyclerView = (RecyclerView)findViewById(R.id.recycler_view);
+        mLayoutManager = new LinearLayoutManager(this);
+        mRecyclerView.setLayoutManager(mLayoutManager);
+
+
+
+        checkConnectivity();
+
+
 
  	    //onRefresh();
     }
 
 	@Override
 	public void onRefresh() {
-        progressBar.setVisibility(View.VISIBLE);
 		mSwipeRefreshLayout.setRefreshing(true);
 		mSwipeRefreshLayout.setEnabled(false);
- 	    mSwipeRefreshLayout.setColorScheme(R.color.transparent,R.color.transparent,R.color.transparent,R.color.transparent);
-		getActionBar().setSubtitle("Loading...");
+		//getSupportActionBar().setSubtitle("Loading...");
 		handler = new SaxParserHandler();
 			
         new XMLParser(this, handler, null).execute("http://pauldmps.url.ph/default.php");
@@ -83,8 +98,7 @@ public class MainActivity extends Activity implements OnRefreshListener,AsyncTas
     	b.setPositiveButton("Retry", new AlertDialog.OnClickListener() {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
-				progressBar.setVisibility(View.INVISIBLE);
-	               checkConnectivity();				
+	               checkConnectivity();
 			}
 		});
     	b.setNegativeButton("Exit", new AlertDialog.OnClickListener() {
@@ -105,10 +119,17 @@ public class MainActivity extends Activity implements OnRefreshListener,AsyncTas
 	    	
 	    	mSwipeRefreshLayout.setEnabled(true);
 	    	if(result.equals("OK")){
-	   		handler.getNotice().getNotice_head().remove(handler.getNotice().getNotice_head().size()-1);
-	  		handler.getNotice().getNotice_head().remove(handler.getNotice().getNotice_head().size()-1);
+	   		//handler.getNotice().getNotice_head().remove(handler.getNotice().getNotice_head().size()-1);
+	  		//handler.getNotice().getNotice_head().remove(handler.getNotice().getNotice_head().size()-1);
+
+                mRecyclerView.setHasFixedSize(true);
+                mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+                mRecyclerView.setAdapter(new MyAdapter(this,handler.getNotice().getNotice_head().toArray(new String[handler.getNotice().getNotice_head().size()])));
+                mRecyclerView.setItemAnimator(new DefaultItemAnimator());
+                mRecyclerView.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.VERTICAL_LIST));
+
 	    	
-			 ArrayAdapter<String> adp =new ArrayAdapter<String>(MainActivity.this, 
+			/* ArrayAdapter<String> adp =new ArrayAdapter<String>(MainActivity.this,
 					 android.R.layout.simple_list_item_1,
 					 handler.getNotice().getNotice_head().toArray(new String[handler.getNotice().getNotice_head().size()]));
 			 lv= (ListView)findViewById(R.id.lv_notices_main);
@@ -132,11 +153,10 @@ public class MainActivity extends Activity implements OnRefreshListener,AsyncTas
 						}
 						
 					}
-				});
+				}); */
    			    mSwipeRefreshLayout.setRefreshing(false);
-                progressBar.setVisibility(View.INVISIBLE);
-         	    mSwipeRefreshLayout.setColorScheme(R.color.theme_red,R.color.transparent,R.color.transparent,R.color.transparent);
-		        getActionBar().setSubtitle(null);
+         	   // mSwipeRefreshLayout.setColorScheme(R.color.theme_red,R.color.transparent,R.color.transparent,R.color.transparent);
+		        getSupportActionBar().setSubtitle(null);
 	    	}
 	    }
 	    

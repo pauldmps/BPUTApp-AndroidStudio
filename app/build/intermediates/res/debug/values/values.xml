@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -18,147 +18,41 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="background_dark">#ff000000</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
-    <eat-comment/>
     <color name="background_floating_material_dark">#ff424242</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="background_holo_dark">#ff000000</color>
-    <color name="background_holo_light">#fff3f3f3</color>
-    <color name="background_light">#ffffffff</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
-    <eat-comment/>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="black">#ff000000</color>
-    <color name="bright_foreground_dark">@android:color/background_light</color>
-    <color name="bright_foreground_dark_disabled">#80ffffff</color>
-    <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
-    <color name="bright_foreground_disabled_holo_light">#ffb2b2b2</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
-    <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="bright_foreground_light">@android:color/background_dark</color>
-    <color name="bright_foreground_light_disabled">#80000000</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
-    <eat-comment/>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
-    <color name="darker_gray">#aaa</color>
-    <color name="dim_foreground_dark">#bebebe</color>
-    <color name="dim_foreground_dark_disabled">#80bebebe</color>
-    <color name="dim_foreground_dark_inverse">#323232</color>
-    <color name="dim_foreground_dark_inverse_disabled">#80323232</color>
-    <color name="dim_foreground_disabled_holo_dark">#80bebebe</color>
-    <color name="dim_foreground_disabled_holo_light">#80323232</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <color name="cardview_dark_background">#FF202020</color>
+    <color name="cardview_light_background">#FFFAFAFA</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="dim_foreground_holo_dark">#bebebe</color>
-    <color name="dim_foreground_holo_light">#323232</color>
-    <color name="dim_foreground_inverse_disabled_holo_dark">#80323232</color>
-    <color name="dim_foreground_inverse_disabled_holo_light">#80bebebe</color>
-    <color name="dim_foreground_inverse_holo_dark">#323232</color>
-    <color name="dim_foreground_inverse_holo_light">#bebebe</color>
-    <color name="dim_foreground_light">#323232</color>
-    <color name="dim_foreground_light_disabled">#80323232</color>
-    <color name="dim_foreground_light_inverse">#bebebe</color>
-    <color name="dim_foreground_light_inverse_disabled">#80bebebe</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
-    <eat-comment/>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="facelock_spotlight_mask">#CC000000</color>
-    <color name="group_button_dialog_focused_holo_dark">#2699cc00</color>
-    <color name="group_button_dialog_focused_holo_light">#4699cc00</color>
-    <color name="group_button_dialog_pressed_holo_dark">#46c5c1ff</color>
-    <color name="group_button_dialog_pressed_holo_light">#ffffffff</color>
-    <color name="highlighted_text_dark">#9983CC39</color>
-    <color name="highlighted_text_holo_dark">#6633b5e5</color>
-    <color name="highlighted_text_holo_light">#6633b5e5</color>
-    <color name="highlighted_text_light">#9983CC39</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
-    <eat-comment/>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="hint_foreground_dark">#808080</color>
-    <color name="hint_foreground_holo_dark">#808080</color>
-    <color name="hint_foreground_holo_light">#808080</color>
-    <color name="hint_foreground_light">#808080</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
-    <eat-comment/>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="holo_blue_bright">#ff00ddff</color>
-    <color name="holo_blue_dark">#ff0099cc</color>
-    <color name="holo_blue_light">#ff33b5e5</color>
-    <color name="holo_green_dark">#ff669900</color>
-    <color name="holo_green_light">#ff99cc00</color>
-    <color name="holo_orange_dark">#ffff8800</color>
-    <color name="holo_orange_light">#ffffbb33</color>
-    <color name="holo_purple">#ffaa66cc</color>
-    <color name="holo_red_dark">#ffcc0000</color>
-    <color name="holo_red_light">#ffff4444</color>
-    <color name="keyguard_text_color_decline">#fe0a5a</color>
-    <color name="keyguard_text_color_normal">#ffffff</color>
-    <color name="keyguard_text_color_soundoff">#ffffff</color>
-    <color name="keyguard_text_color_soundon">#e69310</color>
-    <color name="keyguard_text_color_unlock">#a7d84c</color>
-    <color name="legacy_long_pressed_highlight">#ffffffff</color>
-    <color name="legacy_pressed_highlight">#fffeaa0c</color>
-    <color name="legacy_selected_highlight">#fff17a0a</color>
-    <color name="lighter_gray">#ddd</color>
-    <color name="link_text_dark">#5c5cff</color>
-    <color name="link_text_holo_dark">#5c5cff</color>
-    <color name="link_text_holo_light">#0000ee</color>
-    <color name="link_text_light">#0000ee</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
-    <eat-comment/>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="lockscreen_clock_am_pm">#ffffffff</color>
-    <color name="lockscreen_clock_background">#ffffffff</color>
-    <color name="lockscreen_clock_foreground">#ffffffff</color>
-    <color name="lockscreen_owner_info">#ff9a9a9a</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
-    <eat-comment/>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="perms_dangerous_grp_color">#33b5e5</color>
-    <color name="perms_dangerous_perm_color">#33b5e5</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
-    <eat-comment/>
     <color name="primary_dark_material_dark">#ff000000</color>
     <color name="primary_dark_material_light">#ff757575</color>
     <color name="primary_material_dark">#ff212121</color>
@@ -169,39 +63,24 @@
     <color name="primary_text_disabled_material_light">#39000000</color>
     <color name="ripple_material_dark">#40ffffff</color>
     <color name="ripple_material_light">#40000000</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="safe_mode_text">#80ffffff</color>
-    <color name="search_url_text_normal">#7fa87f</color>
-    <color name="search_url_text_pressed">@android:color/black</color>
-    <color name="search_url_text_selected">@android:color/black</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
-    <eat-comment/>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="shadow">#cc222222</color>
-    <color name="sliding_tab_text_color_active">@android:color/black</color>
-    <color name="sliding_tab_text_color_shadow">@android:color/black</color>
-    <color name="suggestion_highlight_text">#177bbd</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
-    <eat-comment/>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/src/main/res/values/colors.xml -->
     <eat-comment/>
+    <color name="theme_accent">#3333ff</color>
     <color name="theme_red">#d43d1e</color>
-    <color name="transparent">#00000000</color>
-    <color name="white">#ffffffff</color>
+    <color name="theme_red_dark">#aa3118</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
     <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
     <declare-styleable name="ActionMenuView"/>
     <declare-styleable name="ActionMode"><attr name="titleTextStyle"/><attr name="subtitleTextStyle"/><attr name="background"/><attr name="backgroundSplit"/><attr name="height"/><attr format="reference" name="closeItemLayout"/></declare-styleable>
     <declare-styleable name="ActivityChooserView"><attr format="string" name="initialActivityCount"/><attr format="reference" name="expandActivityOverflowButtonDrawable"/></declare-styleable>
+    <declare-styleable name="CardView"><attr format="color" name="cardBackgroundColor"/><attr format="dimension" name="cardCornerRadius"/><attr format="dimension" name="cardElevation"/><attr format="dimension" name="cardMaxElevation"/><attr format="boolean" name="cardUseCompatPadding"/><attr format="boolean" name="cardPreventCornerOverlap"/><attr format="dimension" name="contentPadding"/><attr format="dimension" name="contentPaddingLeft"/><attr format="dimension" name="contentPaddingRight"/><attr format="dimension" name="contentPaddingTop"/><attr format="dimension" name="contentPaddingBottom"/></declare-styleable>
     <declare-styleable name="CompatTextView"><attr format="reference|boolean" name="textAllCaps"/></declare-styleable>
     <declare-styleable name="DrawerArrowToggle"><attr format="color" name="color"/><attr format="boolean" name="spinBars"/><attr format="dimension" name="drawableSize"/><attr format="dimension" name="gapBetweenBars"/><attr format="dimension" name="topBottomBarArrowSize"/><attr format="dimension" name="middleBarArrowSize"/><attr format="dimension" name="barSize"/><attr format="dimension" name="thickness"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers"><flag name="none" value="0"/><flag name="beginning" value="1"/><flag name="middle" value="2"/><flag name="end" value="4"/></attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
@@ -219,7 +98,7 @@
     <declare-styleable name="Toolbar"><attr format="reference" name="titleTextAppearance"/><attr format="reference" name="subtitleTextAppearance"/><attr name="title"/><attr name="subtitle"/><attr name="android:gravity"/><attr format="dimension" name="titleMargins"/><attr format="dimension" name="titleMarginStart"/><attr format="dimension" name="titleMarginEnd"/><attr format="dimension" name="titleMarginTop"/><attr format="dimension" name="titleMarginBottom"/><attr name="contentInsetStart"/><attr name="contentInsetEnd"/><attr name="contentInsetLeft"/><attr name="contentInsetRight"/><attr format="dimension" name="maxButtonHeight"/><attr format="reference" name="theme"/><attr format="reference" name="collapseIcon"/><attr format="string" name="collapseContentDescription"/><attr name="popupTheme"/><attr format="reference" name="navigationIcon"/><attr format="string" name="navigationContentDescription"/><attr name="android:minHeight"/></declare-styleable>
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
     <dimen name="abc_action_bar_default_padding_material">4dp</dimen>
@@ -258,11 +137,16 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/res/values/values.xml -->
+    <eat-comment/>
+    <dimen name="cardview_compat_inset_shadow">1dp</dimen>
+    <dimen name="cardview_default_elevation">2dp</dimen>
+    <dimen name="cardview_default_radius">2dp</dimen>
+    <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -270,25 +154,6 @@
     <item name="dialog_fixed_width_minor" type="dimen">320dp</item>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <drawable name="notification_item_background_color">#ff111111</drawable>
-    <drawable name="notification_item_background_color_pressed">#ff257390</drawable>
-    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
-    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
-    <drawable name="safe_mode_background">#60000000</drawable>
-    <drawable name="screen_background_dark">#ff000000</drawable>
-    <drawable name="screen_background_dark_transparent">#80000000</drawable>
-    <drawable name="screen_background_holo_dark">#ff000000</drawable>
-    <drawable name="screen_background_holo_light">#fff3f3f3</drawable>
-    <drawable name="screen_background_light">#ffffffff</drawable>
-    <drawable name="screen_background_light_transparent">#80ffffff</drawable>
-    <drawable name="search_bar_default_color">#ff000000</drawable>
-    <drawable name="selected_day_background">#ff0092f4</drawable>
-    <drawable name="status_bar_closed_default_background">#ff000000</drawable>
-    <drawable name="status_bar_opened_default_background">#ff000000</drawable>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
-    <eat-comment/>
     <item name="action_bar_activity_content" type="id"/>
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
@@ -315,30 +180,25 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">BPUT App</string>
     <string name="hello_world">Hello world!</string>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/src/main/res/values/styles.xml -->
     <eat-comment/>
-    <style name="ActionBar.Solid.Paulshantanu" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@drawable/ab_solid_paulshantanu</item>
-        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_paulshantanu</item>
-        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_paulshantanu</item>
-        <item name="android:progressBarStyle">@style/ProgressBar.Paulshantanu</item>
+    <style name="AppTheme" parent="AppTheme.Base">
+
     </style>
-    <style name="ActionBar.Transparent.Paulshantanu" parent="@android:style/Widget.Holo.ActionBar">
-        <item name="android:background">@drawable/ab_transparent_paulshantanu</item>
-        <item name="android:progressBarStyle">@style/ProgressBar.Paulshantanu</item>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/theme_red</item>
+        <item name="colorPrimaryDark">@color/theme_red_dark</item>
+        <item name="colorAccent">@color/theme_accent</item>
+
+
     </style>
-    <style name="ActionBarTabStyle.Paulshantanu" parent="@android:style/Widget.Holo.ActionBar.TabView">
-        <item name="android:background">@drawable/tab_indicator_ab_paulshantanu</item>
-    </style>
-    <style name="ActionButton.CloseMode.Paulshantanu" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
-        <item name="android:background">@drawable/btn_cab_done_paulshantanu</item>
-    </style>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>
@@ -1092,17 +952,23 @@
         <item name="android:scaleType">center</item>
         <item name="android:background">?attr/selectableItemBackground</item>
     </style>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
-    <style name="DropDownListView.Paulshantanu" parent="@android:style/Widget.Holo.ListView.DropDown">
-        <item name="android:listSelector">@drawable/selectable_background_paulshantanu</item>
+    <style name="CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
     </style>
-    <style name="DropDownNav.Paulshantanu" parent="@android:style/Widget.Holo.Spinner">
-        <item name="android:background">@drawable/spinner_background_ab_paulshantanu</item>
-        <item name="android:popupBackground">@drawable/menu_dropdown_panel_paulshantanu</item>
-        <item name="android:dropDownSelector">@drawable/selectable_background_paulshantanu</item>
+    <style name="CardView.Dark">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
     </style>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <style name="CardView.Light">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
@@ -1229,16 +1095,6 @@
         <item name="android:listChoiceIndicatorMultiple">@drawable/abc_btn_check_material</item>
     </style>
     <style name="Platform.AppCompat.Light.Dialog" parent="Platform.AppCompat.Dialog"/>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/styles.xml -->
-    <eat-comment/>
-    <style name="PopupMenu.Paulshantanu" parent="@android:style/Widget.Holo.ListPopupWindow">
-        <item name="android:popupBackground">@drawable/menu_dropdown_panel_paulshantanu</item>	
-    </style>
-    <style name="ProgressBar.Paulshantanu" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
-        <item name="android:progressDrawable">@drawable/progress_horizontal_paulshantanu</item>
-    </style>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
-    <eat-comment/>
     <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="android:Widget">
         <item name="android:layout_gravity">center_vertical|left</item>
         <item name="android:paddingRight">8dp</item>
@@ -1340,29 +1196,6 @@
         <item name="windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
     </style>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/values/styles.xml -->
-    <eat-comment/>
-    <style name="Theme.Paulshantanu" parent="@android:style/Theme.Holo.Light.DarkActionBar">
-        <item name="android:actionBarItemBackground">@drawable/selectable_background_paulshantanu</item>
-        <item name="android:popupMenuStyle">@style/PopupMenu.Paulshantanu</item>
-        <item name="android:dropDownListViewStyle">@style/DropDownListView.Paulshantanu</item>
-        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Paulshantanu</item>
-        <item name="android:actionDropDownStyle">@style/DropDownNav.Paulshantanu</item>
-        <item name="android:actionBarStyle">@style/ActionBar.Solid.Paulshantanu</item>
-        <item name="android:actionModeBackground">@drawable/cab_background_top_paulshantanu</item>
-        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_paulshantanu</item>
-        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Paulshantanu</item>
-        
-                <!-- Light.DarkActionBar specific -->
-        <item name="android:actionBarWidgetTheme">@style/Theme.Paulshantanu.Widget</item>
-
-    </style>
-    <style name="Theme.Paulshantanu.Widget" parent="@android:style/Theme.Holo">
-        <item name="android:popupMenuStyle">@style/PopupMenu.Paulshantanu</item>
-        <item name="android:dropDownListViewStyle">@style/DropDownListView.Paulshantanu</item>
-    </style>
-    <!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
-    <eat-comment/>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>

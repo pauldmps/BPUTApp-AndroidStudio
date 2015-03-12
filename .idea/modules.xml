@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BPUTApp.iml" filepath="$PROJECT_DIR$/BPUTApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BPUTApp-AndroidStudio.iml" filepath="$PROJECT_DIR$/BPUTApp-AndroidStudio.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

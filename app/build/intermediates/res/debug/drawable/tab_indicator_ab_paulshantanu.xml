@@ -35,4 +35,4 @@
     <item android:state_focused="true" android:state_selected="false" android:state_pressed="true" android:drawable="@drawable/tab_unselected_pressed_paulshantanu" />
     <item android:state_focused="true" android:state_selected="true"  android:state_pressed="true" android:drawable="@drawable/tab_selected_pressed_paulshantanu" />
 </selector>
-<!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/drawable/tab_indicator_ab_paulshantanu.xml -->
+<!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/src/main/res/drawable/tab_indicator_ab_paulshantanu.xml -->

@@ -37,7 +37,6 @@ import android.webkit.WebViewClient;
 @SuppressLint("NewApi")
 public class PdfViewerAcitvity extends Activity {
 	private WebView webView;
-    ButteryProgressBar progressBar;
     StringBuffer str = new StringBuffer();
 	String url;
 	Uri path;
@@ -55,9 +54,7 @@ public class PdfViewerAcitvity extends Activity {
 		url = URLDecoder.getDecodedUrl(link);
 		
 		
-	    progressBar = ButteryProgressBar.getInstance(PdfViewerAcitvity.this);
-        progressBar.setVisibility(View.VISIBLE);
-		
+
 		webView = (WebView) findViewById(R.id.notice_view);
 		webView.setVisibility(View.INVISIBLE);
 		WebSettings settings = webView.getSettings();
@@ -90,7 +87,6 @@ public class PdfViewerAcitvity extends Activity {
 	        mWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK,
 	             getClass().getName());
 	        mWakeLock.acquire();
-		   progressBar.setVisibility(View.VISIBLE);
 		}
 
 		@Override
@@ -167,8 +163,7 @@ public class PdfViewerAcitvity extends Activity {
 	        		super.onPageFinished(view, url);
 	        	
 	        		 webView.setVisibility(View.VISIBLE);
-	     			progressBar.setVisibility(View.INVISIBLE);
-	     			getActionBar().setSubtitle("View Notice");		
+	     			getActionBar().setSubtitle("View Notice");
 	        		
 	        	}
 	        	

@@ -18,4 +18,4 @@
 
 <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
     android:src="@drawable/ab_texture_tile_paulshantanu"
-    android:tileMode="repeat" /><!-- From: file:/C:/Users/Amit%20Kumar/AndroidstudioProjects/BPUTApp/app/src/main/res/drawable/ab_background_textured_paulshantanu.xml -->
+    android:tileMode="repeat" /><!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/src/main/res/drawable/ab_background_textured_paulshantanu.xml -->

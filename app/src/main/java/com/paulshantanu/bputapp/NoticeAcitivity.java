@@ -27,7 +27,6 @@ import android.widget.TextView;
 
 public class NoticeAcitivity extends Activity implements AsyncTaskListener{
 
-	ButteryProgressBar progressBar;
 	SaxParserHandler notice_handler;
 	StringBuffer str = new StringBuffer();
 	String url;
@@ -44,7 +43,6 @@ public class NoticeAcitivity extends Activity implements AsyncTaskListener{
 
 		main_tv = (TextView) findViewById(R.id.notice_text);
 		tl = (TableLayout) findViewById(R.id.notice_table);
-		progressBar = ButteryProgressBar.getInstance(NoticeAcitivity.this);
 		notice_handler = new SaxParserHandler();
 
 		String link = getIntent().getExtras().getString("link").trim();
@@ -59,7 +57,6 @@ public class NoticeAcitivity extends Activity implements AsyncTaskListener{
 		
 	 public void onTaskComplete(String result) {
 		 if(result.equals("OK")){
-				progressBar.setVisibility(View.INVISIBLE);
 				main_tv.setText(notice_handler.getNotice().getNotice_body());
 				if(notice_handler.getNotice().getHas_table()==true)
 					showTable();
