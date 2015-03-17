@@ -33,11 +33,13 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.webkit.WebView;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 
 public class MainActivity extends ActionBarActivity implements OnRefreshListener,AsyncTaskListener {
 
@@ -45,20 +47,19 @@ public class MainActivity extends ActionBarActivity implements OnRefreshListener
 	SwipeRefreshLayout mSwipeRefreshLayout;
     RecyclerView mRecyclerView;
     RecyclerView.LayoutManager mLayoutManager;
+    ProgressBar mProgressBar;
 
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
         Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 		//getSupportActionBar().setIcon(getResources().getDrawable(R.drawable.ic_launcher));
-        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        //getSupportActionBar().setHomeButtonEnabled(true);
-
-		
+        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
+        getSupportActionBar().setHomeButtonEnabled(false);
 	
 		mSwipeRefreshLayout = (SwipeRefreshLayout)findViewById(R.id.swipe_container);
  	    mSwipeRefreshLayout.setOnRefreshListener(this);
@@ -68,6 +69,9 @@ public class MainActivity extends ActionBarActivity implements OnRefreshListener
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
 
+        mProgressBar = (ProgressBar)findViewById(R.id.progressBar);
+        mProgressBar.setIndeterminate(true);
+        mProgressBar.setVisibility(View.VISIBLE);
 
 
         checkConnectivity();
@@ -81,9 +85,9 @@ public class MainActivity extends ActionBarActivity implements OnRefreshListener
 	public void onRefresh() {
 		mSwipeRefreshLayout.setRefreshing(true);
 		mSwipeRefreshLayout.setEnabled(false);
-		//getSupportActionBar().setSubtitle("Loading...");
+		getSupportActionBar().setSubtitle("Loading...");
 		handler = new SaxParserHandler();
-			
+
         new XMLParser(this, handler, null).execute("http://pauldmps.url.ph/default.php");
 		
 	}
@@ -124,9 +128,35 @@ public class MainActivity extends ActionBarActivity implements OnRefreshListener
 
                 mRecyclerView.setHasFixedSize(true);
                 mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-                mRecyclerView.setAdapter(new MyAdapter(this,handler.getNotice().getNotice_head().toArray(new String[handler.getNotice().getNotice_head().size()])));
+                MyAdapter mAdapter = new MyAdapter(this,handler.getNotice().getNotice_head().toArray(new String[handler.getNotice().getNotice_head().size()]));
+                mRecyclerView.setAdapter(mAdapter);
                 mRecyclerView.setItemAnimator(new DefaultItemAnimator());
                 mRecyclerView.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.VERTICAL_LIST));
+                mSwipeRefreshLayout.setVisibility(View.VISIBLE);
+                mProgressBar.setVisibility(View.GONE);
+                mRecyclerView.setVisibility(View.VISIBLE);
+
+
+                mAdapter.setClickListener(new MyAdapter.ClickListener() {
+                    @Override
+                    public void onClick(View v, int pos) {
+
+                        String link = URLDecoder.getDecodedUrl(handler.getNotice().getUrl().get(pos).trim());
+                        Log.i("link",link);
+                        if(URLDecoder.getUrlType(link)==URLDecoder.PDFFILE){ //If the notice is PDF, start PDF opening activity.
+                            Intent pdfintent = new Intent(MainActivity.this,PdfViewerAcitvity.class);
+                            pdfintent.putExtra("link", link);
+                            startActivity(pdfintent);
+                        }
+                        else
+                        {
+                            Intent i_notice = new Intent(MainActivity.this,NoticeAcitivity.class);
+                            i_notice.putExtra("link", link);
+                            startActivity(i_notice);
+                        }
+
+                    }
+                });
 
 	    	
 			/* ArrayAdapter<String> adp =new ArrayAdapter<String>(MainActivity.this,
@@ -152,8 +182,8 @@ public class MainActivity extends ActionBarActivity implements OnRefreshListener
 		                 startActivity(i_notice);
 						}
 						
-					}
-				}); */
+					} */
+
    			    mSwipeRefreshLayout.setRefreshing(false);
          	   // mSwipeRefreshLayout.setColorScheme(R.color.theme_red,R.color.transparent,R.color.transparent,R.color.transparent);
 		        getSupportActionBar().setSubtitle(null);

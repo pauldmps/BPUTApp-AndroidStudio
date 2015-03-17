@@ -15,6 +15,9 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -25,7 +28,7 @@ import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
-public class NoticeAcitivity extends Activity implements AsyncTaskListener{
+public class NoticeAcitivity extends ActionBarActivity implements AsyncTaskListener{
 
 	SaxParserHandler notice_handler;
 	StringBuffer str = new StringBuffer();
@@ -38,8 +41,12 @@ public class NoticeAcitivity extends Activity implements AsyncTaskListener{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_notice);
-		getActionBar().setDisplayHomeAsUpEnabled(true);
-		getActionBar().setSubtitle("View Notice");
+
+        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getSupportActionBar().setSubtitle("View Notice");
 
 		main_tv = (TextView) findViewById(R.id.notice_text);
 		tl = (TableLayout) findViewById(R.id.notice_table);
@@ -56,6 +63,7 @@ public class NoticeAcitivity extends Activity implements AsyncTaskListener{
 	
 		
 	 public void onTaskComplete(String result) {
+
 		 if(result.equals("OK")){
 				main_tv.setText(notice_handler.getNotice().getNotice_body());
 				if(notice_handler.getNotice().getHas_table()==true)

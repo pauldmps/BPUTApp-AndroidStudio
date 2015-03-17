@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/src/main/res/values-v21/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    <item name="colorPrimary">@color/theme_red</item>
+    <item name="colorPrimaryDark">@color/theme_red_dark</item>
+    <item name="colorAccent">@color/theme_accent</item>
+  </style>
     <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>

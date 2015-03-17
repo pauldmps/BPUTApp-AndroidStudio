@@ -19,6 +19,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     private final Context mContext;
     private List<String> mData1;
+    ClickListener clickListener;
+
 
     public MyAdapter(Context mContext, String[] data1) {
         this.mContext = mContext;
@@ -53,16 +55,32 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(MyViewHolder myViewHolder, int position) {
+    public void onBindViewHolder(MyViewHolder myViewHolder, final int position) {
         myViewHolder.tv1.setText(mData1.get(position));
 
+        myViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
 
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                clickListener.onClick(v, position);
+            }
+        });
 
     }
 
     @Override
     public int getItemCount() {
         return mData1.size();
+    }
+
+    public void setClickListener(ClickListener clickListener) {
+        this.clickListener = clickListener;
+    }
+
+    public interface ClickListener {
+        public void onClick(View v, int pos);
+
     }
 
     public static class MyViewHolder extends RecyclerView.ViewHolder

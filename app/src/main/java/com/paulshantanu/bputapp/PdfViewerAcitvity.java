@@ -24,6 +24,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.PowerManager;
 import android.support.v4.app.NavUtils;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -35,7 +37,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 @SuppressLint("NewApi")
-public class PdfViewerAcitvity extends Activity {
+public class PdfViewerAcitvity extends ActionBarActivity {
 	private WebView webView;
     StringBuffer str = new StringBuffer();
 	String url;
@@ -45,8 +47,11 @@ public class PdfViewerAcitvity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_pdf_notice);
-		getActionBar().setDisplayHomeAsUpEnabled(true);
-		getActionBar().setSubtitle("View Notice");
+
+        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+		getSupportActionBar().setSubtitle("View Notice");
 		
 		String link = getIntent().getExtras().getString("link");
 		Log.i("debug", "pdfintent: "+link);
@@ -142,7 +147,7 @@ public class PdfViewerAcitvity extends Activity {
 		@Override
 		protected void onProgressUpdate(Integer... progress) {
 			super.onProgressUpdate(progress);
-			getActionBar().setSubtitle("Loading " + progress[0] + "%");
+			//getActionBar().setSubtitle("Loading " + progress[0] + "%");
 		}
 		
 		@Override
@@ -163,7 +168,7 @@ public class PdfViewerAcitvity extends Activity {
 	        		super.onPageFinished(view, url);
 	        	
 	        		 webView.setVisibility(View.VISIBLE);
-	     			getActionBar().setSubtitle("View Notice");
+	     			getSupportActionBar().setSubtitle("View Notice");
 	        		
 	        	}
 	        	
