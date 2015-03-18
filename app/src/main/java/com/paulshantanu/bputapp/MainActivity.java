@@ -68,6 +68,7 @@ public class MainActivity extends ActionBarActivity implements OnRefreshListener
         mRecyclerView = (RecyclerView)findViewById(R.id.recycler_view);
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
+        mRecyclerView.setItemAnimator(new DefaultItemAnimator());
 
         mProgressBar = (ProgressBar)findViewById(R.id.progressBar);
         mProgressBar.setIndeterminate(true);

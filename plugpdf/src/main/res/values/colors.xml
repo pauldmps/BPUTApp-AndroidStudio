@@ -10,5 +10,8 @@
     <color name="titlebar_background_end">#CD2626</color>
     <color name="list_bg_1">#000000</color>
     <color name="list_bg_2">#171717</color>
+    <color name="theme_red">#d43d1e</color>
+    <color name="theme_red_dark">#aa3118</color>
+    <color name="theme_accent">#3333ff</color>
 
 </resources>

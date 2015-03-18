@@ -8,6 +8,8 @@ package com.paulshantanu.bputapp;
  */
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -15,12 +17,10 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.PowerManager;
 import android.support.v4.app.NavUtils;
@@ -30,18 +30,19 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.webkit.WebChromeClient;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
-import android.webkit.WebViewClient;
+
+import com.epapyrus.plugpdf.SimpleDocumentReader;
+import com.epapyrus.plugpdf.SimpleReaderFactory;
+import com.epapyrus.plugpdf.core.PlugPDF;
+import com.epapyrus.plugpdf.core.PlugPDFException.InvalidLicense;
+
+
+
 
 @SuppressLint("NewApi")
 public class PdfViewerAcitvity extends ActionBarActivity {
-	private WebView webView;
-    StringBuffer str = new StringBuffer();
-	String url;
-	Uri path;
+	String url, path;
     
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -55,22 +56,24 @@ public class PdfViewerAcitvity extends ActionBarActivity {
 		
 		String link = getIntent().getExtras().getString("link");
 		Log.i("debug", "pdfintent: "+link);
-		
+
+        try {
+            // Initialize PlugPDF with a license key.
+            PlugPDF.init(getApplicationContext(),
+                    "ACF5AE3D5H4FD3DAED34D3A7FGHHGB9DF48GG35932CCF2F2EC25FBF5");
+
+        } catch (InvalidLicense ex) {
+            Log.e("KS", "error ", ex);
+            // Handle invalid license exceptions.
+        }
+
+
+
 		url = URLDecoder.getDecodedUrl(link);
 		
 		
 
-		webView = (WebView) findViewById(R.id.notice_view);
-		webView.setVisibility(View.INVISIBLE);
-		WebSettings settings = webView.getSettings();
-		settings.setJavaScriptEnabled(true);
 
-		if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.JELLY_BEAN){ //required for running javascript on android 4.1 or later
-		settings.setAllowFileAccessFromFileURLs(true);
-		settings.setAllowUniversalAccessFromFileURLs(true);
-		}
-		settings.setBuiltInZoomControls(true);
-		webView.setWebChromeClient(new WebChromeClient());
 	
 	    new DownloadTask(PdfViewerAcitvity.this).execute(url);
 	}
@@ -158,22 +161,39 @@ public class PdfViewerAcitvity extends ActionBarActivity {
 //	            Toast.makeText(context,"Download error: "+result, Toast.LENGTH_LONG).show();
 //	        else
 //	            Toast.makeText(context,"File downloaded", Toast.LENGTH_SHORT).show();
-			
-			path = Uri.parse(context.getFilesDir().toString()+ "/notice.pdf");
-	        webView.loadUrl("file:///android_asset/pdfviewer/index.html?file=" + path);
-	        webView.setWebViewClient(new WebViewClient()
-	        {
-	        	@Override
-	        	public void onPageFinished(WebView view, String url) {
-	        		super.onPageFinished(view, url);
-	        	
-	        		 webView.setVisibility(View.VISIBLE);
-	     			getSupportActionBar().setSubtitle("View Notice");
-	        		
-	        	}
-	        	
-	        });
-	       
+
+			path = context.getFilesDir().toString()+ "/notice.pdf";
+
+            Log.i("debug",path);
+
+            try {
+
+                InputStream is = new FileInputStream(path);
+                int size = is.available();
+
+                if(size>0)
+                {
+                    byte[] data = new byte[size];
+                    is.read(data);
+
+                    SimpleDocumentReader v = SimpleReaderFactory.createSimpleViewer(PdfViewerAcitvity.this,null);
+                    v.openData(data,data.length,"");
+                    Log.i("debug","reader executed");
+
+                }
+                is.close();
+
+            }
+            catch (FileNotFoundException e)
+            {
+                  Log.i("debug","File not found");
+            }
+
+            catch (Exception e)
+            {
+                   e.printStackTrace();
+            }
+
 		}
 	}
 	
@@ -187,12 +207,12 @@ public class PdfViewerAcitvity extends ActionBarActivity {
 	@Override
 	protected void onPause() {
 		super.onPause();
-		webView.clearCache(true);
+		//webView.clearCache(true);
 	}
 	
 	protected void  onDestroy() {
 		super.onDestroy();
-		webView.clearCache(true);
+		//webView.clearCache(true);
 		File file = new File(getFilesDir(), "notice.pdf");
         file.delete();			
 	}	
@@ -232,14 +252,14 @@ public class PdfViewerAcitvity extends ActionBarActivity {
         case R.id.action_next:
 			
 
-			webView.loadUrl("javascript:onNextPage()");
+			//webView.loadUrl("javascript:onNextPage()");
 	    	return super.onOptionsItemSelected(item);
 			
 		
 		case R.id.action_previous:
 			
 			
-			webView.loadUrl("javascript:onPrevPage()");
+			//webView.loadUrl("javascript:onPrevPage()");
 	    	return super.onOptionsItemSelected(item);
 
 			        

@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.epapyrus.plugpdf.SimpleReaderControlView xmlns:android="http://schemas.android.com/apk/res/android"
+                                              xmlns:app="http://schemas.android.com/apk/res-auto"
+
     android:layout_width="match_parent"
     android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
 
     <ViewFlipper
         android:id="@+id/flipper"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true" >
+        android:layout_centerHorizontal="true"
+        >
+
+
+
 
         <RelativeLayout
             style="@style/TopBar"
@@ -237,5 +251,7 @@
             android:src="@android:drawable/alert_light_frame" />
         
     </RelativeLayout>
+
+    </LinearLayout>
 
 </com.epapyrus.plugpdf.SimpleReaderControlView>
