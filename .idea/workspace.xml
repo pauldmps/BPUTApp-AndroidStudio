@@ -25,27 +25,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="808b720c-4373-4f08-bce0-1a9b11b65802" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugpdf/src/main/res/drawable/toolbar_dropshadow.xml" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\.idea\libraries\appcompat_v7_21_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\.idea\libraries\support_annotations_21_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\.idea\libraries\support_v4_21_0_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\plugpdf\src\main\jniLibs\armeabi\libplugpdf.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\plugpdf\src\main\jniLibs\mips\libplugpdf.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\plugpdf\src\main\jniLibs\x86\libplugpdf.so" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/PdfViewerAcitvity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/PdfViewerAcitvity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/paulshantanu/bputapp/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/paulshantanu/bputapp/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_notice.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_notice.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleDocumentReader.java" afterPath="$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleDocumentReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleReaderControlView.java" afterPath="$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleReaderControlView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleReaderFactory.java" afterPath="$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleReaderFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pdf_notice.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pdf_notice.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugpdf/build.gradle" afterPath="$PROJECT_DIR$/plugpdf/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugpdf/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/plugpdf/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugpdf/plugpdf.iml" afterPath="$PROJECT_DIR$/plugpdf/plugpdf.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/pdfmenu.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/pdfmenu.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugpdf/src/main/res/layout/simple_reader_control.xml" afterPath="$PROJECT_DIR$/plugpdf/src/main/res/layout/simple_reader_control.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugpdf/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/plugpdf/src/main/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BPUTApp.iws" />
@@ -69,74 +57,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PdfViewerAcitvity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PdfViewerAcitvity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/PdfViewerAcitvity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2394" max-vertical-offset="4794">
-              <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.5236427" vertical-offset="2812" max-vertical-offset="4590">
+              <caret line="183" column="54" selection-start-line="183" selection-start-column="54" selection-end-line="183" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2477#2478#0" expanded="true" />
-                <element signature="e#2517#2518#0" expanded="true" />
+                <element signature="e#2715#2716#0" expanded="true" />
+                <element signature="e#2755#2756#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugpdf/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple_reader_control.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugpdf/src/main/res/layout/simple_reader_control.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-141.66667" vertical-offset="0" max-vertical-offset="4454">
-              <caret line="225" column="48" selection-start-line="225" selection-start-column="48" selection-end-line="225" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleReaderControlView.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleReaderControlView.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77935946" vertical-offset="227" max-vertical-offset="13056">
-              <caret line="94" column="25" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
-              <folding>
-                <element signature="e#9965#9966#0" expanded="true" />
-                <element signature="e#10019#10020#0" expanded="true" />
-                <element signature="e#11209#11210#0" expanded="true" />
-                <element signature="e#11265#11266#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleReaderControlPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleReaderControlPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="5780">
-              <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -146,6 +76,32 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
               <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_pdf_notice.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pdf_notice.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.740741" vertical-offset="153" max-vertical-offset="799">
+              <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.740741" vertical-offset="102" max-vertical-offset="1122">
+              <caret line="31" column="51" selection-start-line="29" selection-start-column="12" selection-end-line="31" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -1878,14 +1834,18 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_notice.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pdf_notice.xml" />
         <option value="$PROJECT_DIR$/plugpdf/build.gradle" />
         <option value="$PROJECT_DIR$/plugpdf/src/main/res/drawable/toolbar_dropshadow.xml" />
         <option value="$PROJECT_DIR$/plugpdf/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/PdfViewerAcitvity.java" />
         <option value="$PROJECT_DIR$/plugpdf/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/plugpdf/src/main/res/layout/simple_reader_control.xml" />
+        <option value="$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleDocumentReader.java" />
+        <option value="$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleReaderFactory.java" />
         <option value="$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleReaderControlView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/pdfmenu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pdf_notice.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/PdfViewerAcitvity.java" />
       </list>
     </option>
   </component>
@@ -2287,6 +2247,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BPUTApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BPUTApp-AndroidStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BPUTApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BPUTApp-AndroidStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -2511,7 +2531,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -2527,7 +2547,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3337041" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3337041" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924694" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19722815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -2613,32 +2633,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="357">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="527">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2771">
@@ -2812,17 +2806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1122">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/import-summary.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="7990">
@@ -2854,26 +2837,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleDocumentReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2587" max-vertical-offset="8211">
-          <caret line="234" column="7" selection-start-line="234" selection-start-column="7" selection-end-line="234" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleDocumentReaderListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4168126" vertical-offset="0" max-vertical-offset="571">
           <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleReaderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="731">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2978,43 +2945,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/plugpdf/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/PdfViewerAcitvity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2394" max-vertical-offset="4794">
-          <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2477#2478#0" expanded="true" />
-            <element signature="e#2517#2518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pdf_notice.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.962963" vertical-offset="0" max-vertical-offset="663">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-21/android/widget/ViewFlipper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8581436" vertical-offset="3" max-vertical-offset="3723">
           <caret line="39" column="47" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
           <folding>
-            <element signature="e#0#7647#0" expanded="true" />
+            <element signature="e#0#7647#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/plugpdf/libs/plugpdfcore.jar!/com/epapyrus/plugpdf/core/BaseReaderControl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.100472815" vertical-offset="0" max-vertical-offset="846">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleReaderControlPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21354765" vertical-offset="103" max-vertical-offset="5780">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleReaderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59484345" vertical-offset="0" max-vertical-offset="986">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#1195#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleDocumentReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.357143" vertical-offset="587" max-vertical-offset="8449">
+          <caret line="75" column="41" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
+          <folding>
+            <element signature="e#5426#5427#0" expanded="true" />
+            <element signature="e#5462#5463#0" expanded="true" />
+            <element signature="e#5683#5684#0" expanded="true" />
+            <element signature="e#5722#5723#0" expanded="true" />
+            <element signature="e#5865#5866#0" expanded="true" />
+            <element signature="e#5900#5901#0" expanded="true" />
+            <element signature="e#7392#7393#0" expanded="true" />
+            <element signature="e#7434#7435#0" expanded="true" />
+            <element signature="e#11157#11158#0" expanded="true" />
+            <element signature="e#11213#11214#0" expanded="true" />
+            <element signature="e#11389#11390#0" expanded="true" />
+            <element signature="e#11430#11431#0" expanded="true" />
+            <element signature="e#11718#11719#0" expanded="true" />
+            <element signature="e#11751#11752#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugpdf/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17863397" vertical-offset="0" max-vertical-offset="571">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/pdfmenu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05954466" vertical-offset="0" max-vertical-offset="571">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="56" />
+          <folding>
+            <element signature="e#317#342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35726795" vertical-offset="0" max-vertical-offset="571">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#270#295#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3024,29 +3038,60 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-141.66667" vertical-offset="0" max-vertical-offset="4454">
-          <caret line="225" column="48" selection-start-line="225" selection-start-column="48" selection-end-line="225" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleReaderControlPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="103" max-vertical-offset="5780">
-          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="0.75" vertical-offset="0" max-vertical-offset="4675">
+          <caret line="24" column="64" selection-start-line="24" selection-start-column="64" selection-end-line="24" selection-end-column="64" />
+          <folding>
+            <element signature="e#5223#5244#0" expanded="true" />
+            <element signature="e#6834#6856#0" expanded="true" />
+            <element signature="e#10838#10869#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/plugpdf/src/main/java/com/epapyrus/plugpdf/SimpleReaderControlView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77935946" vertical-offset="227" max-vertical-offset="13056">
-          <caret line="94" column="25" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.1878453" vertical-offset="2380" max-vertical-offset="13668">
+          <caret line="164" column="67" selection-start-line="164" selection-start-column="67" selection-end-line="164" selection-end-column="67" />
           <folding>
-            <element signature="e#9965#9966#0" expanded="true" />
-            <element signature="e#10019#10020#0" expanded="true" />
-            <element signature="e#11209#11210#0" expanded="true" />
-            <element signature="e#11265#11266#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#10292#10293#0" expanded="true" />
+            <element signature="e#10346#10347#0" expanded="true" />
+            <element signature="e#11536#11537#0" expanded="true" />
+            <element signature="e#11592#11593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.740741" vertical-offset="102" max-vertical-offset="1122">
+          <caret line="31" column="51" selection-start-line="29" selection-start-column="12" selection-end-line="31" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pdf_notice.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.740741" vertical-offset="153" max-vertical-offset="799">
+          <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/PdfViewerAcitvity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5236427" vertical-offset="2812" max-vertical-offset="4590">
+          <caret line="183" column="54" selection-start-line="183" selection-start-column="54" selection-end-line="183" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2715#2716#0" expanded="true" />
+            <element signature="e#2755#2756#0" expanded="true" />
           </folding>
         </state>
       </provider>

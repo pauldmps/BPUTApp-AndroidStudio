@@ -37,6 +37,9 @@ import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
+import android.support.v7.app.ActionBarActivity;
+import android.support.v7.widget.Toolbar;
+
 
 import com.epapyrus.plugpdf.SimpleReaderControlPanel.PanelType;
 import com.epapyrus.plugpdf.core.BaseReaderControl;
@@ -59,7 +62,7 @@ public class SimpleReaderControlView extends RelativeLayout {
 	private BaseReaderControl mController;
 	private SimpleReaderControlPanel mControlPanel;
 	private AnnotSettingMenu mAnnotSettingMenu;
-	Activity mAct;
+	ActionBarActivity mAct;
 
 	private boolean mButtonsVisible;
 	private boolean mTopBarIsSearch;
@@ -153,9 +156,13 @@ public class SimpleReaderControlView extends RelativeLayout {
 	 * 
 	 * @param act {@link Activity}
 	 */
-	public void init(Activity act) {
+	public void init(ActionBarActivity act) {
 		
 		mAct = act;
+
+         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        mAct.setSupportActionBar(toolbar);
+        mAct.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 		mAnnotSettingMenu = new AnnotSettingMenu(getContext());
 		
@@ -164,6 +171,7 @@ public class SimpleReaderControlView extends RelativeLayout {
 		showOutlineButton(true);
 		
 		mTopBarSwitcher.setVisibility(View.INVISIBLE);
+        mTopBarSwitcher.stopFlipping();
 		mPageThumbnail.setVisibility(View.INVISIBLE);
 		mPageNumberView.setVisibility(View.INVISIBLE);
 		mPageSlider.setVisibility(View.INVISIBLE);

@@ -19,6 +19,7 @@ package com.epapyrus.plugpdf;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.MotionEvent;
 import android.widget.RelativeLayout;
 
@@ -64,7 +65,7 @@ public class SimpleDocumentReader implements ReaderListener {
 	private ReaderView mReaderView;
 	private SimpleReaderControlView mControlView;
 	private SimpleDocumentReaderListener mListener;
-	private Activity mAct;
+	private ActionBarActivity mAct;
 	private String	mFilePath = null;
 	private byte[] mFileData = null;
 
@@ -72,7 +73,7 @@ public class SimpleDocumentReader implements ReaderListener {
 	 * Constructor which initialize and creates the Reader UI layout.
 	 * @param act passed {@link Activity}.
 	 */
-	public SimpleDocumentReader(Activity act) {
+	public SimpleDocumentReader(ActionBarActivity act) {
 		mAct = act;
 		mReaderView = new ReaderView(mAct);
 		mReaderView.setReaderListener(this);

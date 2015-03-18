@@ -30,7 +30,9 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.webkit.WebView;
+import android.widget.ProgressBar;
 
 import com.epapyrus.plugpdf.SimpleDocumentReader;
 import com.epapyrus.plugpdf.SimpleReaderFactory;
@@ -43,6 +45,7 @@ import com.epapyrus.plugpdf.core.PlugPDFException.InvalidLicense;
 @SuppressLint("NewApi")
 public class PdfViewerAcitvity extends ActionBarActivity {
 	String url, path;
+    ProgressBar progressBar;
     
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +56,11 @@ public class PdfViewerAcitvity extends ActionBarActivity {
         setSupportActionBar(toolbar);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setSubtitle("View Notice");
-		
+
+        progressBar = (ProgressBar)findViewById(R.id.progressBar2);
+        progressBar.setIndeterminate(true);
+        progressBar.setVisibility(View.VISIBLE);
+
 		String link = getIntent().getExtras().getString("link");
 		Log.i("debug", "pdfintent: "+link);
 
@@ -67,14 +74,7 @@ public class PdfViewerAcitvity extends ActionBarActivity {
             // Handle invalid license exceptions.
         }
 
-
-
 		url = URLDecoder.getDecodedUrl(link);
-		
-		
-
-
-	
 	    new DownloadTask(PdfViewerAcitvity.this).execute(url);
 	}
 
@@ -91,6 +91,7 @@ public class PdfViewerAcitvity extends ActionBarActivity {
 		@Override
 		protected void onPreExecute() {
 		   super.onPreExecute();
+
 		   PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
 	        mWakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK,
 	             getClass().getName());
@@ -177,8 +178,10 @@ public class PdfViewerAcitvity extends ActionBarActivity {
                     is.read(data);
 
                     SimpleDocumentReader v = SimpleReaderFactory.createSimpleViewer(PdfViewerAcitvity.this,null);
+                    progressBar.setVisibility(View.INVISIBLE);
+
                     v.openData(data,data.length,"");
-                    Log.i("debug","reader executed");
+                    Log.i("debug","reader executed"); 
 
                 }
                 is.close();
@@ -248,21 +251,6 @@ public class PdfViewerAcitvity extends ActionBarActivity {
 		case android.R.id.home:
 			 NavUtils.navigateUpFromSameTask(this);
 		        return true;
-		        
-        case R.id.action_next:
-			
-
-			//webView.loadUrl("javascript:onNextPage()");
-	    	return super.onOptionsItemSelected(item);
-			
-		
-		case R.id.action_previous:
-			
-			
-			//webView.loadUrl("javascript:onPrevPage()");
-	    	return super.onOptionsItemSelected(item);
-
-			        
 
 		default:
 	    	return super.onOptionsItemSelected(item);
