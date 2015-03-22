@@ -29,364 +29,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="808b720c-4373-4f08-bce0-1a9b11b65802" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\R.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\anim\abc_fade_in.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\anim\abc_fade_out.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\anim\abc_slide_in_bottom.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\anim\abc_slide_in_top.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\anim\abc_slide_out_bottom.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\anim\abc_slide_out_top.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\color\abc_background_cache_hint_selector_material_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\color\abc_background_cache_hint_selector_material_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\color\abc_primary_text_disable_only_material_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\color\abc_primary_text_disable_only_material_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\color\abc_primary_text_material_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\color\abc_primary_text_material_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\color\abc_search_url_text.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\color\abc_secondary_text_material_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\color\abc_secondary_text_material_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_ab_share_pack_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_ab_share_pack_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_btn_check_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_btn_check_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_btn_radio_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_btn_radio_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_cab_background_top_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_ic_clear_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_ic_commit_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_ic_go_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_ic_menu_selectall_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_ic_menu_share_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_ic_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_ic_voice_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_list_divider_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_list_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_list_longpressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_list_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_list_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_list_selector_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_popup_background_mtrl_mult.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_switch_track_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_tab_indicator_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_textfield_activated_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_textfield_default_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_textfield_search_activated_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-hdpi\abc_textfield_search_default_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-hdpi\abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-hdpi\abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-hdpi\abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-hdpi\abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-mdpi\abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-mdpi\abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-mdpi\abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-mdpi\abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-xhdpi\abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-xhdpi\abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-xhdpi\abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-xhdpi\abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-xxhdpi\abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-xxhdpi\abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-xxhdpi\abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-xxhdpi\abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-xxxhdpi\abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-xxxhdpi\abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-xxxhdpi\abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-ldrtl-xxxhdpi\abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_ab_share_pack_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_ab_share_pack_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_btn_check_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_btn_check_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_btn_radio_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_btn_radio_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_cab_background_top_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_ic_clear_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_ic_commit_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_ic_go_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_ic_menu_selectall_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_ic_menu_share_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_ic_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_ic_voice_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_list_divider_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_list_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_list_longpressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_list_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_list_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_list_selector_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_popup_background_mtrl_mult.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_switch_track_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_tab_indicator_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_textfield_activated_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_textfield_default_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_textfield_search_activated_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-mdpi\abc_textfield_search_default_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_ab_share_pack_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_ab_share_pack_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_btn_check_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_btn_check_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_btn_radio_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_btn_radio_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_cab_background_top_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_ic_clear_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_ic_commit_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_ic_go_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_ic_menu_selectall_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_ic_menu_share_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_ic_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_ic_voice_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_list_divider_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_list_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_list_longpressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_list_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_list_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_list_selector_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_popup_background_mtrl_mult.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_switch_track_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_tab_indicator_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_textfield_activated_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_textfield_default_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_textfield_search_activated_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xhdpi\abc_textfield_search_default_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_ab_share_pack_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_ab_share_pack_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_btn_check_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_btn_check_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_btn_radio_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_btn_radio_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_cab_background_top_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_ic_clear_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_ic_commit_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_ic_go_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_ic_menu_selectall_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_ic_menu_share_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_ic_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_ic_voice_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_list_divider_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_list_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_list_longpressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_list_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_list_pressed_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_list_selector_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_list_selector_disabled_holo_light.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_menu_hardkey_panel_mtrl_mult.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_popup_background_mtrl_mult.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_switch_track_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_tab_indicator_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_textfield_activated_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_textfield_default_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_textfield_search_activated_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxhdpi\abc_textfield_search_default_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_btn_check_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_btn_check_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_btn_radio_to_on_mtrl_000.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_btn_radio_to_on_mtrl_015.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_btn_switch_to_on_mtrl_00001.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_btn_switch_to_on_mtrl_00012.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_ic_ab_back_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_ic_clear_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_ic_menu_cut_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_ic_menu_paste_mtrl_am_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_ic_menu_selectall_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_ic_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_ic_voice_search_api_mtrl_alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_spinner_mtrl_am_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_switch_track_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable-xxxhdpi\abc_tab_indicator_mtrl_alpha.9.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable\abc_btn_check_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable\abc_btn_radio_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable\abc_cab_background_internal_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable\abc_cab_background_top_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable\abc_edit_text_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable\abc_item_background_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable\abc_item_background_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable\abc_list_selector_background_transition_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable\abc_list_selector_background_transition_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable\abc_list_selector_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable\abc_list_selector_holo_light.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable\abc_switch_thumb_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable\abc_tab_indicator_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\drawable\abc_textfield_search_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout-v11\abc_screen_content_include.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_action_bar_title_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_action_bar_up_container.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_action_bar_view_list_nav_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_action_menu_item_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_action_menu_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_action_mode_bar.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_action_mode_close_item_material.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_activity_chooser_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_activity_chooser_view_include.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_activity_chooser_view_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_expanded_menu_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_list_menu_item_checkbox.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_list_menu_item_icon.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_list_menu_item_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_list_menu_item_radio.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_popup_menu_item_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_screen_content_include.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_screen_simple.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_screen_simple_overlay_action_mode.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_screen_toolbar.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_search_dropdown_item_icons_2line.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_search_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\abc_simple_dropdown_hint.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\layout\support_simple_spinner_dropdown_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-af\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-am\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-ar\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-bg\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-bn-rBD\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-ca\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-cs\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-da\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-de\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-el\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-en-rGB\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-en-rIN\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-es-rUS\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-es\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-et-rEE\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-eu-rES\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-fa\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-fi\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-fr-rCA\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-fr\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-gl-rES\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-hi\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-hr\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-hu\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-hy-rAM\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-in\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-is-rIS\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-it\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-iw\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-ja\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-ka-rGE\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-kk-rKZ\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-km-rKH\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-kn-rIN\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-ko\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-ky-rKG\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-land\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-large\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-lo-rLA\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-lt\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-lv\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-mk-rMK\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-ml-rIN\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-mn-rMN\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-mr-rIN\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-ms-rMY\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-my-rMM\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-nb\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-ne-rNP\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-nl\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-pl\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-port\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-pt-rPT\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-pt\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-ro\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-ru\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-si-rLK\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-sk\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-sl\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-sr\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-sv\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-sw600dp\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-sw\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-ta-rIN\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-te-rIN\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-th\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-tl\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-tr\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-uk\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-ur-rPK\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-uz-rUZ\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-v11\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-v14\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-v17\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-v21\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-vi\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-w360dp\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-w480dp\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-w500dp\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-w600dp\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-w720dp\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-xlarge-land\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-xlarge\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-zh-rCN\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-zh-rHK\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-zh-rTW\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values-zu\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\res\values\values.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\aidl\android\support\v4\app\INotificationSideChannel.aidl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\src\main\java\com\paulshantanu\bputapp\DividerItemDecoration.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\src\main\res\values-sw600dp\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\src\main\res\values-sw720dp-land\dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\plugpdf\src\main\res\values-ko\array.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\plugpdf\src\main\res\values-ko\strings.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/model_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/model_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugpdf/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/plugpdf/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/MyAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/MyAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/NoticeAcitivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/NoticeAcitivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/PdfViewerAcitvity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/PdfViewerAcitvity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/paulshantanu/bputapp/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/paulshantanu/bputapp/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_notice.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_notice.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pdf_notice.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pdf_notice.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugpdf/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/plugpdf/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/pdfmenu.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/pdfmenu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugpdf/src/main/res/layout/simple_reader_control.xml" afterPath="$PROJECT_DIR$/plugpdf/src/main/res/layout/simple_reader_control.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugpdf/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/plugpdf/src/main/res/values/styles.xml" />
+      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\src\main\assets\pdfviewer\compatibility.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\src\main\assets\pdfviewer\customview.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\src\main\assets\pdfviewer\data.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\src\main\assets\pdfviewer\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\src\main\assets\pdfviewer\minimal.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\src\main\assets\pdfviewer\pdf.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\src\main\assets\pdfviewer\pdf.worker.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\src\main\assets\pdfviewer\pdffile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\src\main\assets\test.pdf" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BPUTApp.iws" />
@@ -433,8 +84,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="561">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state vertical-scroll-proportion="-4.6" vertical-offset="4" max-vertical-offset="561">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -463,8 +114,8 @@
       <file leaf-file-name="NoticeAcitivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/NoticeAcitivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.05061082" vertical-offset="770" max-vertical-offset="2516">
-              <caret line="63" column="97" selection-start-line="63" selection-start-column="97" selection-end-line="63" selection-end-column="97" />
+            <state vertical-scroll-proportion="1.79927" vertical-offset="0" max-vertical-offset="2516">
+              <caret line="74" column="6" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -658,6 +309,11 @@
                 <option name="name" value="packageDebugResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Extracts Android annotations for the debug variant into the archive file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractDebugAnnotations" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="generateDebugSources" />
               </ExternalTaskPojo>
@@ -756,6 +412,11 @@
                 <option name="description" value="Prepare com.android.support:cardview-v7:22.0.0" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="prepareComAndroidSupportCardviewV72200Library" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Extracts Android annotations for the release variant into the archive file" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractReleaseAnnotations" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -1893,7 +1554,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5704989519000" />
+        <entry key="$PROJECT_DIR$" value="5706106071581" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2280,63 +1941,21 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView">
+      <pane id="PackagesPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="BPUTApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BPUTApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BPUTApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bputapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BPUTApp" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidSourceTypeNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2633,18 +2252,86 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BPUTApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BPUTApp-AndroidStudio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
+      <pane id="AndroidView">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="BPUTApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BPUTApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BPUTApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bputapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BPUTApp" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.NonAndroidSourceTypeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2876,6 +2563,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32703003" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2899,7 +2587,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32703003" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -3298,14 +2985,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="561">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
@@ -3378,10 +3057,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6" vertical-offset="4" max-vertical-offset="561">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/paulshantanu/bputapp/NoticeAcitivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05061082" vertical-offset="770" max-vertical-offset="2516">
-          <caret line="63" column="97" selection-start-line="63" selection-start-column="97" selection-end-line="63" selection-end-column="97" />
+        <state vertical-scroll-proportion="1.79927" vertical-offset="0" max-vertical-offset="2516">
+          <caret line="74" column="6" selection-start-line="74" selection-start-column="6" selection-end-line="74" selection-end-column="6" />
           <folding />
         </state>
       </provider>
