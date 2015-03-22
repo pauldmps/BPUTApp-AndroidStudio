@@ -89,7 +89,7 @@ public class MainActivity extends ActionBarActivity implements OnRefreshListener
 		getSupportActionBar().setSubtitle("Loading...");
 		handler = new SaxParserHandler();
 
-        new XMLParser(this, handler, null).execute("http://pauldmps.url.ph/default.php");
+        new XMLParser(this, handler, null).execute("http://paul-shantanu-bputapp.appspot.com/default.php");
 		
 	}
 	
@@ -124,15 +124,14 @@ public class MainActivity extends ActionBarActivity implements OnRefreshListener
 	    	
 	    	mSwipeRefreshLayout.setEnabled(true);
 	    	if(result.equals("OK")){
-	   		//handler.getNotice().getNotice_head().remove(handler.getNotice().getNotice_head().size()-1);
-	  		//handler.getNotice().getNotice_head().remove(handler.getNotice().getNotice_head().size()-1);
+	   		    handler.getNotice().getNotice_head().remove(handler.getNotice().getNotice_head().size()-1);
+	  		    handler.getNotice().getNotice_head().remove(handler.getNotice().getNotice_head().size()-1);
 
                 mRecyclerView.setHasFixedSize(true);
                 mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
                 MyAdapter mAdapter = new MyAdapter(this,handler.getNotice().getNotice_head().toArray(new String[handler.getNotice().getNotice_head().size()]));
                 mRecyclerView.setAdapter(mAdapter);
                 mRecyclerView.setItemAnimator(new DefaultItemAnimator());
-                mRecyclerView.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.VERTICAL_LIST));
                 mSwipeRefreshLayout.setVisibility(View.VISIBLE);
                 mProgressBar.setVisibility(View.GONE);
                 mRecyclerView.setVisibility(View.VISIBLE);
@@ -155,38 +154,10 @@ public class MainActivity extends ActionBarActivity implements OnRefreshListener
                             i_notice.putExtra("link", link);
                             startActivity(i_notice);
                         }
-
                     }
                 });
 
-	    	
-			/* ArrayAdapter<String> adp =new ArrayAdapter<String>(MainActivity.this,
-					 android.R.layout.simple_list_item_1,
-					 handler.getNotice().getNotice_head().toArray(new String[handler.getNotice().getNotice_head().size()]));
-			 lv= (ListView)findViewById(R.id.lv_notices_main);
-			 lv.setAdapter(adp);
-   			 lv.setOnItemClickListener(new OnItemClickListener() {
-					@Override
-					public void onItemClick(AdapterView<?> arg0, View arg1, int itemClicked,
-							long arg3) {
-						String link = URLDecoder.getDecodedUrl(handler.getNotice().getUrl().get(itemClicked).trim());
-						Log.i("link",link);
-						if(URLDecoder.getUrlType(link)==URLDecoder.PDFFILE){ //If the notice is PDF, start PDF opening activity.
-							Intent pdfintent = new Intent(MainActivity.this,PdfViewerAcitvity.class);
-							pdfintent.putExtra("link", link);
-							startActivity(pdfintent);
-						}
-						else
-						{
-						 Intent i_notice = new Intent(MainActivity.this,NoticeAcitivity.class);
-		                 i_notice.putExtra("link", link);
-		                 startActivity(i_notice);
-						}
-						
-					} */
-
    			    mSwipeRefreshLayout.setRefreshing(false);
-         	   // mSwipeRefreshLayout.setColorScheme(R.color.theme_red,R.color.transparent,R.color.transparent,R.color.transparent);
 		        getSupportActionBar().setSubtitle(null);
 	    	}
 	    }

@@ -3,10 +3,14 @@
     <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/src/main/res/values-v21/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="AppTheme.Base">
-
     <item name="colorPrimary">@color/theme_red</item>
     <item name="colorPrimaryDark">@color/theme_red_dark</item>
     <item name="colorAccent">@color/theme_accent</item>
+    <item name="android:windowContentTransitions">true</item>
+    <item name="android:windowAllowEnterTransitionOverlap">true</item>
+    <item name="android:windowAllowReturnTransitionOverlap">true</item>
+    <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+    <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
   </style>
     <!-- From: file:/C:/Users/Shantanu%20Paul/Documents/GitHub/BPUTApp-AndroidStudio/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-v21/values.xml -->
     <eat-comment/>

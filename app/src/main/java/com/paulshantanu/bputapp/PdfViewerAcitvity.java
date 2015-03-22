@@ -33,19 +33,21 @@ import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.ProgressBar;
+import android.widget.Toast;
 
 import com.epapyrus.plugpdf.SimpleDocumentReader;
 import com.epapyrus.plugpdf.SimpleReaderFactory;
 import com.epapyrus.plugpdf.core.PlugPDF;
 import com.epapyrus.plugpdf.core.PlugPDFException.InvalidLicense;
+import com.epapyrus.plugpdf.core.viewer.BasePlugPDFDisplay;
+import com.epapyrus.plugpdf.core.viewer.ReaderView;
 
 
-
-
-@SuppressLint("NewApi")
 public class PdfViewerAcitvity extends ActionBarActivity {
 	String url, path;
     ProgressBar progressBar;
+    ReaderView readerview;
+    BasePlugPDFDisplay basePlugPDFDisplay;
     
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -61,7 +63,10 @@ public class PdfViewerAcitvity extends ActionBarActivity {
         progressBar.setIndeterminate(true);
         progressBar.setVisibility(View.VISIBLE);
 
-		String link = getIntent().getExtras().getString("link");
+        readerview = (ReaderView)findViewById(R.id.readerview);
+
+
+	    String link = getIntent().getExtras().getString("link");
 		Log.i("debug", "pdfintent: "+link);
 
         try {
@@ -177,11 +182,13 @@ public class PdfViewerAcitvity extends ActionBarActivity {
                     byte[] data = new byte[size];
                     is.read(data);
 
-                    SimpleDocumentReader v = SimpleReaderFactory.createSimpleViewer(PdfViewerAcitvity.this,null);
                     progressBar.setVisibility(View.INVISIBLE);
 
-                    v.openData(data,data.length,"");
-                    Log.i("debug","reader executed"); 
+                    readerview.openData(data,data.length,"");
+                    basePlugPDFDisplay = readerview.getPlugPDFDisplay();
+                    basePlugPDFDisplay.setBackgroundColor(getResources().getColor(android.R.color.white));
+
+                    Log.i("debug","reader executed");
 
                 }
                 is.close();
@@ -204,18 +211,15 @@ public class PdfViewerAcitvity extends ActionBarActivity {
 	@Override
 	protected void onResume() {
 		super.onResume();
-	//	webView.loadUrl( "javascript:window.location.reload( true )" );
 	}
 	
 	@Override
 	protected void onPause() {
 		super.onPause();
-		//webView.clearCache(true);
 	}
 	
 	protected void  onDestroy() {
 		super.onDestroy();
-		//webView.clearCache(true);
 		File file = new File(getFilesDir(), "notice.pdf");
         file.delete();			
 	}	
@@ -230,6 +234,8 @@ public class PdfViewerAcitvity extends ActionBarActivity {
     
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
+
 
     	switch (item.getItemId()) {
 		case R.id.action_settings:		
@@ -252,7 +258,27 @@ public class PdfViewerAcitvity extends ActionBarActivity {
 			 NavUtils.navigateUpFromSameTask(this);
 		        return true;
 
-		default:
+        case R.id.action_previous:
+            if(basePlugPDFDisplay.getPageIdx()>0)
+                basePlugPDFDisplay.goToPage(basePlugPDFDisplay.getPageIdx()-1);
+            else
+                Toast.makeText(PdfViewerAcitvity.this,"First Page",Toast.LENGTH_SHORT).show();
+
+            return true;
+
+
+        case R.id.action_next:
+
+            if(basePlugPDFDisplay.getPageIdx()<(basePlugPDFDisplay.pageCount()-1))
+                basePlugPDFDisplay.goToPage(basePlugPDFDisplay.getPageIdx()+1);
+            else
+                Toast.makeText(PdfViewerAcitvity.this,"Last Page",Toast.LENGTH_SHORT).show();
+
+            return true;
+
+
+
+            default:
 	    	return super.onOptionsItemSelected(item);
 		}
     }

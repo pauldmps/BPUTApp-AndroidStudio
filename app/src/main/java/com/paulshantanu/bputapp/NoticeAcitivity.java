@@ -23,6 +23,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
+import android.widget.ProgressBar;
 import android.widget.TableRow.LayoutParams;
 import android.widget.TableLayout;
 import android.widget.TableRow;
@@ -35,6 +36,7 @@ public class NoticeAcitivity extends ActionBarActivity implements AsyncTaskListe
 	String url;
 	TextView main_tv;
 	TableLayout tl;
+    ProgressBar mProgressBar;
 
 	
 	@Override
@@ -50,21 +52,22 @@ public class NoticeAcitivity extends ActionBarActivity implements AsyncTaskListe
 
 		main_tv = (TextView) findViewById(R.id.notice_text);
 		tl = (TableLayout) findViewById(R.id.notice_table);
+
+        mProgressBar = (ProgressBar)findViewById(R.id.progressBar3);
+        mProgressBar.setIndeterminate(true);
+        mProgressBar.setVisibility(View.VISIBLE);
+
 		notice_handler = new SaxParserHandler();
 
-		String link = getIntent().getExtras().getString("link").trim();
-		
-		//url = URLDecoder.getDecodedUrl(link);
-		url=link;
+		url = getIntent().getExtras().getString("link").trim();
 
-		new XMLParser(this, notice_handler,url).execute("http://pauldmps.url.ph/notice.php");
+		new XMLParser(this, notice_handler,url).execute("http://paul-shantanu-bputapp.appspot.com/notice.php");
 	}
-	
-	
-		
-	 public void onTaskComplete(String result) {
+
+	public void onTaskComplete(String result) {
 
 		 if(result.equals("OK")){
+                mProgressBar.setVisibility(View.INVISIBLE);
 				main_tv.setText(notice_handler.getNotice().getNotice_body());
 				if(notice_handler.getNotice().getHas_table()==true)
 					showTable();
@@ -135,7 +138,6 @@ public class NoticeAcitivity extends ActionBarActivity implements AsyncTaskListe
              WebView about_view = new WebView(this);
              about_view.loadUrl("file:///android_asset/about.htm");
              
-            // b.setMessage(Html.fromHtml(getResources().getString(R.string.about_string)));
              b.setView(about_view);
              b.setPositiveButton("OK", null);
              b.create().show();

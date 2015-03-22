@@ -5,12 +5,11 @@
 
     <uses-sdk
         android:minSdkVersion="13"
-        android:targetSdkVersion="13" />
+        android:targetSdkVersion="21" />
 
     <application
         android:allowBackup="true" >
     </application>
 
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.INTERNET" />
+
 </manifest>

@@ -31,7 +31,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     }
 
-    public void add(String s,int position) {
+    /*public void add(String s,int position) {
         position = position == -1 ? getItemCount()  : position;
         mData1.add(position,s);
 
@@ -43,7 +43,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             mData1.remove(position);
             notifyItemRemoved(position);
         }
-    }
+    }  */
 
 
     @Override
