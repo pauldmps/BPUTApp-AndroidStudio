@@ -31,21 +31,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     }
 
-    /*public void add(String s,int position) {
-        position = position == -1 ? getItemCount()  : position;
-        mData1.add(position,s);
-
-        notifyItemInserted(position);
-    }
-
-    public void remove(int position){
-        if (position < getItemCount()  ) {
-            mData1.remove(position);
-            notifyItemRemoved(position);
-        }
-    }  */
-
-
     @Override
     public MyViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         LayoutInflater inflater = LayoutInflater.from(viewGroup.getContext());
@@ -86,8 +71,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     public static class MyViewHolder extends RecyclerView.ViewHolder
     {
         protected TextView tv1;
-
-
 
         public MyViewHolder(View itemView) {
             super(itemView);

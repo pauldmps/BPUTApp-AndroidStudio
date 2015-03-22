@@ -44,18 +44,18 @@
         <dex dex="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\pre-dexed\debug\classes-64b7503b18868683ce8ca32aeafbdfd55fa3e9d2.jar" />
     </item>
     <item
-        jar="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\pre-dexed\debug\classes-1fb1aeddbc9121b691500a5b039faa3930c8864a.jar" />
-    </item>
-    <item
         jar="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\BPUTApp-AndroidStudio\plugpdf\unspecified\libs\libGoogleAnalytics.jar"
         jumboMode="false"
         revision="22.0.0"
         sha1="d5f42ff2c078847b6ab128c5eca39852de9a406a">
         <dex dex="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\pre-dexed\debug\libGoogleAnalytics-e775bd4cfcf6b4a335cf78bc7432fd794778829e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\pre-dexed\debug\classes-1fb1aeddbc9121b691500a5b039faa3930c8864a.jar" />
     </item>
     <item
         jar="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\BPUTApp-AndroidStudio\plugpdf\unspecified\libs\page-curl-effect.jar"
@@ -68,7 +68,7 @@
         jar="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\exploded-aar\BPUTApp-AndroidStudio\plugpdf\unspecified\classes.jar"
         jumboMode="false"
         revision="22.0.0"
-        sha1="838b343a91b1231c8c408577a547948165f18a44">
+        sha1="ba878e13dc39522390573ee2246514cc57a2214a">
         <dex dex="C:\Users\Shantanu Paul\Documents\GitHub\BPUTApp-AndroidStudio\app\build\intermediates\pre-dexed\debug\classes-64b7503b18868683ce8ca32aeafbdfd55fa3e9d2.jar" />
     </item>
     <item

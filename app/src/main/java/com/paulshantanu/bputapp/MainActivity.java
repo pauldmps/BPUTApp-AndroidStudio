@@ -3,14 +3,12 @@ package com.paulshantanu.bputapp;
 /*
  * This class is the main entry point of the app. It is the first activity that is shown when the
  * user opens the app. 
- * This activity implements SwipeRefreshHintLayout.java for "Swipe down to refresh" gesture.
- * This activity also implements ButteryProgressBar.java for showing the indeterminate progressbar while
- * loading the required data.
+
  * 
  * This activity shows a listview with all the notices that are downloaded and parsed using 
  * XMLParser.java with the help of SaxParserHandler.java handler class.
  * 
- * TODO: UI Enhancements, Code Optimizations
+ * TODO: Code Optimizations
  * 
 */
 
@@ -63,7 +61,8 @@ public class MainActivity extends ActionBarActivity implements OnRefreshListener
 	
 		mSwipeRefreshLayout = (SwipeRefreshLayout)findViewById(R.id.swipe_container);
  	    mSwipeRefreshLayout.setOnRefreshListener(this);
- 	    mSwipeRefreshLayout.setColorSchemeColors(getResources().getColor(R.color.theme_red),getResources().getColor(R.color.theme_accent),getResources().getColor(R.color.theme_red),getResources().getColor(R.color.theme_accent));
+ 	    mSwipeRefreshLayout.setColorSchemeColors(getResources().getColor(R.color.theme_red),getResources().getColor(R.color.theme_accent),
+                 getResources().getColor(R.color.theme_red),getResources().getColor(R.color.theme_accent));
 
         mRecyclerView = (RecyclerView)findViewById(R.id.recycler_view);
         mLayoutManager = new LinearLayoutManager(this);
@@ -77,9 +76,6 @@ public class MainActivity extends ActionBarActivity implements OnRefreshListener
 
         checkConnectivity();
 
-
-
- 	    //onRefresh();
     }
 
 	@Override

@@ -10,8 +10,5 @@
         <item name="colorPrimary">@color/theme_red</item>
         <item name="colorPrimaryDark">@color/theme_red_dark</item>
         <item name="colorAccent">@color/theme_accent</item>
-
-
     </style>
-
 </resources>

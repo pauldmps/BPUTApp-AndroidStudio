@@ -2,9 +2,8 @@ package com.paulshantanu.bputapp;
 
 /*
  * This activity downloads and displays those notices which are in PDF format. 
- * This activity uses PDF.js javascript library to display the PDF inside a WebView "webView".
+ * This activity uses PlugPDF library to display the PDF.
  * 
- * PDF.js is licensed under the APACHE-V2 License. Copyright Mozilla Foundation, all rights reserved.
  */
 
 import java.io.File;
@@ -156,17 +155,13 @@ public class PdfViewerAcitvity extends ActionBarActivity {
 		@Override
 		protected void onProgressUpdate(Integer... progress) {
 			super.onProgressUpdate(progress);
-			//getActionBar().setSubtitle("Loading " + progress[0] + "%");
+			getSupportActionBar().setSubtitle("Loading " + progress[0] + "%");
 		}
 		
 		@Override
 		protected void onPostExecute(String result) {
 			super.onPostExecute(result);
 			mWakeLock.release();
-//			if (result != null)
-//	            Toast.makeText(context,"Download error: "+result, Toast.LENGTH_LONG).show();
-//	        else
-//	            Toast.makeText(context,"File downloaded", Toast.LENGTH_SHORT).show();
 
 			path = context.getFilesDir().toString()+ "/notice.pdf";
 
@@ -187,6 +182,8 @@ public class PdfViewerAcitvity extends ActionBarActivity {
                     readerview.openData(data,data.length,"");
                     basePlugPDFDisplay = readerview.getPlugPDFDisplay();
                     basePlugPDFDisplay.setBackgroundColor(getResources().getColor(android.R.color.white));
+                    getSupportActionBar().setSubtitle("View Notice");
+
 
                     Log.i("debug","reader executed");
 
@@ -234,8 +231,6 @@ public class PdfViewerAcitvity extends ActionBarActivity {
     
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
-
 
     	switch (item.getItemId()) {
 		case R.id.action_settings:		
