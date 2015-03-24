@@ -4,22 +4,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/canvas">
+    android:background="@android:color/white">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:minHeight="?attr/actionBarSize"
-            android:background="@color/theme_red"
-            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"    />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/theme_red"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"    />
+
 
     <View
         android:layout_width="match_parent"
         android:layout_height="3dp"
         android:background="@drawable/toolbar_dropshadow" />
-
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -29,11 +30,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/readerview"
-            android:background="@color/canvas"
-            />
+            android:background="@android:color/white"/>
 
-
-         <ProgressBar
+        <ProgressBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/progressBar2"
@@ -41,7 +40,7 @@
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true" />
 
-          <View
+        <View
            android:layout_width="64dp"
            android:layout_height="64dp"
            android:background="@drawable/fab"
@@ -50,7 +49,7 @@
            android:layout_marginRight="10dp"
            android:layout_alignParentBottom="true"
            android:layout_alignParentRight="true"
-           android:layout_alignParentEnd="true"/> -->
+           android:layout_alignParentEnd="true"/>
 
     </RelativeLayout>
 

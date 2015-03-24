@@ -64,6 +64,7 @@ public class PdfViewerAcitvity extends ActionBarActivity {
         readerview.setVisibility(View.INVISIBLE);
 
 
+
 	    String link = getIntent().getExtras().getString("link");
 		Log.i("debug", "pdfintent: "+link);
 
@@ -178,11 +179,12 @@ public class PdfViewerAcitvity extends ActionBarActivity {
 
 
                     readerview.openData(data,data.length,"");
-                    basePlugPDFDisplay = readerview.getPlugPDFDisplay();
-                    basePlugPDFDisplay.setBackgroundColor(getResources().getColor(android.R.color.white));
+
                     getSupportActionBar().setSubtitle("View Notice");
                     progressBar.setVisibility(View.INVISIBLE);
                     readerview.setVisibility(View.VISIBLE);
+                    basePlugPDFDisplay = readerview.getPlugPDFDisplay();
+                    basePlugPDFDisplay.setBackgroundColor(getResources().getColor(android.R.color.white));
 
 
 
