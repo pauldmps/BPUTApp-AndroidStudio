@@ -17,7 +17,6 @@
 package com.epapyrus.plugpdf;
 
 import android.app.Activity;
-import android.support.v7.app.ActionBarActivity;
 
 /**
  * You can create a custom PDF viewer class by using PDFDocument class directly.
@@ -41,7 +40,7 @@ public class SimpleReaderFactory {
 	 * 
 	 * @return SimpleDocumentViewer The default PDF document viewer instance
 	 */
-	public static SimpleDocumentReader createSimpleViewer(ActionBarActivity act,
+	public static SimpleDocumentReader createSimpleViewer(Activity act,
 			SimpleDocumentReaderListener listener) {
 
 		SimpleDocumentReader viewer = new SimpleDocumentReader(act);

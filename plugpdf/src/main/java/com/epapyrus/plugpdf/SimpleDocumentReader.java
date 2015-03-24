@@ -16,10 +16,11 @@
 
 package com.epapyrus.plugpdf;
 
+import java.io.FileInputStream;
+
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.MotionEvent;
 import android.widget.RelativeLayout;
 
@@ -44,28 +45,12 @@ import com.epapyrus.plugpdf.core.viewer.ReaderView;
  * 
  * @see <a href="http://www.plugpdf.com">http://www.plugpdf.com</a>
  */
-/**
- * @author Mudasar
- *
- */
-/**
- * @author Mudasar
- *
- */
-/**
- * @author Mudasar
- *
- */
-/**
- * @author Mudasar
- *
- */
 public class SimpleDocumentReader implements ReaderListener {
 
 	private ReaderView mReaderView;
 	private SimpleReaderControlView mControlView;
 	private SimpleDocumentReaderListener mListener;
-	private ActionBarActivity mAct;
+	private Activity mAct;
 	private String	mFilePath = null;
 	private byte[] mFileData = null;
 
@@ -73,7 +58,7 @@ public class SimpleDocumentReader implements ReaderListener {
 	 * Constructor which initialize and creates the Reader UI layout.
 	 * @param act passed {@link Activity}.
 	 */
-	public SimpleDocumentReader(ActionBarActivity act) {
+	public SimpleDocumentReader(Activity act) {
 		mAct = act;
 		mReaderView = new ReaderView(mAct);
 		mReaderView.setReaderListener(this);
@@ -133,6 +118,10 @@ public class SimpleDocumentReader implements ReaderListener {
 	public void openFile(String filePath, String password) {
 		mFilePath = filePath;
 		mReaderView.openFile(filePath, password);
+	}
+	
+	public void openStream(FileInputStream stream, int length, String password) {
+		mReaderView.openStream(stream, length, password);
 	}
 
 	/**
@@ -395,8 +384,7 @@ public class SimpleDocumentReader implements ReaderListener {
 	public void onLoadFinish(DocumentState.OPEN state) {
 		if (state == OPEN.SUCCESS) {
 			mReaderView.goToPage(mReaderView.getPageCount() - 1);
-		}
-		if (state == OPEN.SUCCESS) {
+
 			mControlView.init(mAct);
 
 			RelativeLayout layout = new RelativeLayout(mAct);
@@ -559,4 +547,9 @@ public class SimpleDocumentReader implements ReaderListener {
 	}
 	
 	// / @endcond
+
+	@Override
+	public void onLongPress(MotionEvent e) {
+		
+	}
 }

@@ -1,40 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.epapyrus.plugpdf.SimpleReaderControlView xmlns:android="http://schemas.android.com/apk/res/android"
-                                              xmlns:app="http://schemas.android.com/apk/res-auto"
-
     android:layout_width="match_parent"
     android:layout_height="wrap_content" >
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:minHeight="?attr/actionBarSize"
-            android:background="@color/theme_red"
-            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"    />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="3dp"
-            android:background="@drawable/toolbar_dropshadow" />
-
-
 
     <ViewFlipper
         android:id="@+id/flipper"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        >
-
-
-
+        android:layout_centerHorizontal="true" >
 
         <RelativeLayout
             style="@style/TopBar"
@@ -55,8 +28,7 @@
                     android:maxLength="8"
                     android:singleLine="true"
                     android:textColor="@color/text"
-                    android:textSize="28dp"
-                    android:visibility="gone">
+                    android:textSize="28dp" >
                 </TextView>
             </LinearLayout>
 
@@ -229,45 +201,41 @@
         </RelativeLayout>
     </ViewFlipper>
 
-        <RelativeLayout
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        <SeekBar
+            android:id="@+id/rc_page_slider"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="0dp"
+            android:background="@drawable/slider" />
 
-
-            <SeekBar
-                android:id="@+id/rc_page_slider"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_margin="0dp"
-                android:background="@drawable/slider" />
-
-            <TextView
-                android:id="@+id/rc_page_number"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_above="@+id/rc_page_slider"
-                android:layout_centerHorizontal="true"
-                android:background="@drawable/page_num"
-                android:textSize="12sp"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:visibility="gone"/>
-
-            <ImageView
-                android:id="@+id/rc_page_thumbnail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_above="@+id/rc_page_number"
-                android:layout_centerHorizontal="true"
-                android:padding="1dp"
-                android:background="#000000"
-                android:contentDescription="@string/bottom_menu_thumbnail"
-                android:src="@android:drawable/alert_light_frame"
-                android:visibility="gone"/>
-
-        </RelativeLayout>
-
-    </LinearLayout>
+        <TextView
+            android:id="@+id/rc_page_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rc_page_slider"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/page_num"
+            android:textSize="12sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <ImageView
+            android:id="@+id/rc_page_thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rc_page_number"
+            android:layout_centerHorizontal="true"
+            android:padding="1dp"
+            android:background="#000000"
+            android:contentDescription="@string/bottom_menu_thumbnail"
+            android:src="@android:drawable/alert_light_frame" />
+        
+    </RelativeLayout>
 
 </com.epapyrus.plugpdf.SimpleReaderControlView>

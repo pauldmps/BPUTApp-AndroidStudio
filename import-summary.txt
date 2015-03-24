@@ -34,6 +34,9 @@ so manually move them:
 * docs\html\classcom_1_1epapyrus_1_1plugpdf_1_1_simple_document_reader.png
 * docs\html\classcom_1_1epapyrus_1_1plugpdf_1_1_simple_reader_factory-members.html
 * docs\html\classcom_1_1epapyrus_1_1plugpdf_1_1_simple_reader_factory.html
+* docs\html\classcom_1_1epapyrus_1_1plugpdf_1_1core_1_1_freely_input_stream-members.html
+* docs\html\classcom_1_1epapyrus_1_1plugpdf_1_1core_1_1_freely_input_stream.html
+* docs\html\classcom_1_1epapyrus_1_1plugpdf_1_1core_1_1_freely_input_stream.png
 * docs\html\classcom_1_1epapyrus_1_1plugpdf_1_1core_1_1_outline_item-members.html
 * docs\html\classcom_1_1epapyrus_1_1plugpdf_1_1core_1_1_outline_item.html
 * docs\html\classcom_1_1epapyrus_1_1plugpdf_1_1core_1_1_p_d_f_document-members.html
@@ -376,6 +379,7 @@ so manually move them:
 * docs\html\tabs.css
 * docs\rtf\
 * docs\rtf\classcom_1_1epapyrus_1_1plugpdf_1_1_simple_document_reader.png
+* docs\rtf\classcom_1_1epapyrus_1_1plugpdf_1_1core_1_1_freely_input_stream.png
 * docs\rtf\classcom_1_1epapyrus_1_1plugpdf_1_1core_1_1_plug_p_d_f_exception_1_1_invalid_license.png
 * docs\rtf\classcom_1_1epapyrus_1_1plugpdf_1_1core_1_1_plug_p_d_f_exception_1_1_jet_stream_connection_error.png
 * docs\rtf\classcom_1_1epapyrus_1_1plugpdf_1_1core_1_1_plug_p_d_f_exception_1_1_license_mismatch_app_i_d.png

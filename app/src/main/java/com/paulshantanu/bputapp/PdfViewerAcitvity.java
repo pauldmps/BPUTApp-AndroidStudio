@@ -15,10 +15,8 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.Context;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.PowerManager;
@@ -34,8 +32,6 @@ import android.webkit.WebView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.epapyrus.plugpdf.SimpleDocumentReader;
-import com.epapyrus.plugpdf.SimpleReaderFactory;
 import com.epapyrus.plugpdf.core.PlugPDF;
 import com.epapyrus.plugpdf.core.PlugPDFException.InvalidLicense;
 import com.epapyrus.plugpdf.core.viewer.BasePlugPDFDisplay;
@@ -61,6 +57,8 @@ public class PdfViewerAcitvity extends ActionBarActivity {
         progressBar = (ProgressBar)findViewById(R.id.progressBar2);
         progressBar.setIndeterminate(true);
         progressBar.setVisibility(View.VISIBLE);
+
+        PlugPDF.setUpdateCheckEnabled(false);
 
         readerview = (ReaderView)findViewById(R.id.readerview);
         readerview.setVisibility(View.INVISIBLE);
