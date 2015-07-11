@@ -40,7 +40,8 @@
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true" />
 
-        <View
+        <ImageButton
+           android:id="@+id/btn_save"
            android:layout_width="64dp"
            android:layout_height="64dp"
            android:background="@drawable/fab"

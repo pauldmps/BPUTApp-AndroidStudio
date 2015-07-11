@@ -29,6 +29,8 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
@@ -43,7 +45,8 @@ public class PdfViewerAcitvity extends ActionBarActivity {
     ProgressBar progressBar;
     ReaderView readerview;
     BasePlugPDFDisplay basePlugPDFDisplay;
-    
+    ImageButton saveBtn;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -63,6 +66,14 @@ public class PdfViewerAcitvity extends ActionBarActivity {
         readerview = (ReaderView)findViewById(R.id.readerview);
         readerview.setVisibility(View.INVISIBLE);
 
+        saveBtn = (ImageButton)findViewById(R.id.btn_save);
+
+        saveBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 
 
 	    String link = getIntent().getExtras().getString("link");
