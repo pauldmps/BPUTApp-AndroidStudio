@@ -15,15 +15,15 @@ import java.util.List;
 /**
  *
  */
-public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
+public class MainListViewAdapter extends RecyclerView.Adapter<MainListViewAdapter.MainListViewHolder> {
 
-    private final Context mContext;
+   // private final Context mContext;
     private List<String> mData1;
     ClickListener clickListener;
 
 
-    public MyAdapter(Context mContext, String[] data1) {
-        this.mContext = mContext;
+    public MainListViewAdapter(Context mContext, String[] data1) {
+       // this.mContext = mContext;
         if (data1 != null)
             mData1 = new ArrayList<String>(Arrays.asList(data1));
         else mData1 = new ArrayList<String>();
@@ -32,15 +32,15 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     }
 
     @Override
-    public MyViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
+    public MainListViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         LayoutInflater inflater = LayoutInflater.from(viewGroup.getContext());
         View itemView = inflater.inflate(R.layout.list_item,viewGroup,false);
 
-        return new MyViewHolder(itemView);
+        return new MainListViewHolder(itemView);
     }
 
     @Override
-    public void onBindViewHolder(MyViewHolder myViewHolder, final int position) {
+    public void onBindViewHolder(MainListViewHolder myViewHolder, final int position) {
         myViewHolder.tv1.setText(mData1.get(position));
 
         myViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
@@ -68,11 +68,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     }
 
-    public static class MyViewHolder extends RecyclerView.ViewHolder
+    public static class MainListViewHolder extends RecyclerView.ViewHolder
     {
         protected TextView tv1;
 
-        public MyViewHolder(View itemView) {
+        public MainListViewHolder(View itemView) {
             super(itemView);
             tv1 = (TextView) itemView.findViewById(R.id.txt1);
 

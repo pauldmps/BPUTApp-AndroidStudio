@@ -57,6 +57,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.paulshantanu.bputapp.MainActivity" />
         </activity>
+       <activity android:name=".SchedulePickerActivity" >
+           <meta-data
+               android:name="android.support.PARENT_ACTIVITY"
+               android:value="com.paulshantanu.bputapp.MainActivity"/>
+        </activity>
+        <activity android:name=".ExamScheduleActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.paulshantanu.bputapp.SchedulePickerActivity"/>
+        </activity>
     </application>
 
 </manifest>

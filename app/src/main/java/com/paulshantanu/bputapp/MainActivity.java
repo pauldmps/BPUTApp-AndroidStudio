@@ -12,7 +12,6 @@ package com.paulshantanu.bputapp;
  * 
 */
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -31,12 +30,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
 import android.webkit.WebView;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 import android.widget.ProgressBar;
 
 public class MainActivity extends ActionBarActivity implements OnRefreshListener,AsyncTaskListener {
@@ -83,7 +77,7 @@ public class MainActivity extends ActionBarActivity implements OnRefreshListener
 		mSwipeRefreshLayout.setRefreshing(true);
 		mSwipeRefreshLayout.setEnabled(false);
 		getSupportActionBar().setSubtitle("Loading...");
-		handler = new SaxParserHandler();
+		handler = new SaxParserHandler(SaxParserHandler.NOTICE_PARSER);
 
         new XMLParser(this, handler, null).execute("http://paul-shantanu-bputapp.appspot.com/default.php");
 		
@@ -125,7 +119,7 @@ public class MainActivity extends ActionBarActivity implements OnRefreshListener
 
                 mRecyclerView.setHasFixedSize(true);
                 mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-                MyAdapter mAdapter = new MyAdapter(this,handler.getNotice().getNotice_head().toArray(new String[handler.getNotice().getNotice_head().size()]));
+                MainListViewAdapter mAdapter = new MainListViewAdapter(this,handler.getNotice().getNotice_head().toArray(new String[handler.getNotice().getNotice_head().size()]));
                 mRecyclerView.setAdapter(mAdapter);
                 mRecyclerView.setItemAnimator(new DefaultItemAnimator());
                 mSwipeRefreshLayout.setVisibility(View.VISIBLE);
@@ -133,7 +127,7 @@ public class MainActivity extends ActionBarActivity implements OnRefreshListener
                 mRecyclerView.setVisibility(View.VISIBLE);
 
 
-                mAdapter.setClickListener(new MyAdapter.ClickListener() {
+                mAdapter.setClickListener(new MainListViewAdapter.ClickListener() {
                     @Override
                     public void onClick(View v, int pos) {
 
@@ -184,7 +178,12 @@ public class MainActivity extends ActionBarActivity implements OnRefreshListener
                  b.setView(about_view);
                  b.setPositiveButton("OK", null);
                  b.create().show();
-				return true;
+				 return true;
+
+
+			case R.id.exam_schedule:
+				 Intent examIntent = new Intent(MainActivity.this,SchedulePickerActivity.class);
+                 startActivity(examIntent);
 
 			default:
 		    	return super.onOptionsItemSelected(item);

@@ -18,15 +18,10 @@ package com.paulshantanu.bputapp;
  * If parsing is successful, String result is returned as "OK" else "Error" is returned.  
  */
 
-import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.xml.parsers.SAXParser;
-import javax.xml.parsers.SAXParserFactory;
+import android.app.Activity;
+import android.content.Context;
+import android.os.AsyncTask;
+import android.util.Log;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -37,10 +32,15 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 
-import android.app.Activity;
-import android.content.Context;
-import android.os.AsyncTask;
-import android.util.Log;
+import java.io.BufferedReader;
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
 
 
 interface AsyncTaskListener{
@@ -53,14 +53,36 @@ public class XMLParser extends AsyncTask<String, Integer, String> {
 	private SaxParserHandler handler;
 	private List<NameValuePair> nameValuePairs;
 
+    private XMLParser(Activity activity, SaxParserHandler handler)
+    {
+        this.context = (Context)activity;
+        this.handler = handler;
+        this.callback = (AsyncTaskListener)activity;
+        nameValuePairs= new ArrayList<NameValuePair>();
+
+    }
+
+
 	public XMLParser(Activity activity, SaxParserHandler handler, String url) {		
-		this.context = (Context)activity;
-		this.handler = handler;
-	    this.callback = (AsyncTaskListener)activity;
-	    nameValuePairs= new ArrayList<NameValuePair>();
-		nameValuePairs.add(new BasicNameValuePair("url", url)); 
+		this(activity,handler);
+		nameValuePairs.add(new BasicNameValuePair("url", url));
 	}
 
+    public XMLParser(Activity activity, SaxParserHandler handler, String url, String type) {
+        this(activity,handler,url);
+        nameValuePairs.add(new BasicNameValuePair("type", type));
+
+    }
+
+    public XMLParser(Activity activity, SaxParserHandler handler, String url, String type, String semester) {
+        this(activity,handler,url,type);
+        nameValuePairs.add(new BasicNameValuePair("semester", semester));
+    }
+
+    public XMLParser(Activity activity, SaxParserHandler handler, String url, String type, String semester, String branch) {
+       this(activity,handler,url,type,semester);
+       nameValuePairs.add(new BasicNameValuePair("branch",branch));
+    }
 	
 	@Override
 	protected String doInBackground(String... sURL) {
@@ -83,6 +105,8 @@ public class XMLParser extends AsyncTask<String, Integer, String> {
 			while ((str=br.readLine())!=null) {
               	strbuf.append(str);
 			}
+
+            Log.i("Debug","XML: "+ strbuf.toString());
 			
 			
 	} catch (Exception e) {
