@@ -9,18 +9,38 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 public class SaxParserHandler extends DefaultHandler {
+
+	public static final int NOTICE_PARSER = 0;
+	public static final int SCHEDULE_PARSER = 1;
+
+	private int parser_type;
+
 	int i = 0;
 	String temp_str;
 	private Notice notice_obj;
+	private Schedule schedule_obj;
+
+    SaxParserHandler(int parser_type) {
+        this.parser_type = parser_type;
+    }
 	
 	public Notice getNotice() {
 		return notice_obj;
 	}
+
+    public Schedule getSchedule() {return schedule_obj;}
 	
 	@Override
 	public void startDocument() throws SAXException {
 		super.startDocument();
-		notice_obj = new Notice();
+
+        if(parser_type == SaxParserHandler.NOTICE_PARSER) {
+            notice_obj = new Notice();
+        }
+        else if(parser_type == SaxParserHandler.SCHEDULE_PARSER) {
+            schedule_obj = new Schedule();
+        }
+
 	}
 	
 	@Override
@@ -33,6 +53,7 @@ public class SaxParserHandler extends DefaultHandler {
 		else if(qName.equals("thead")){
 			notice_obj.setHas_table(true);
 		}
+
 	}
 
 	@Override
@@ -56,6 +77,27 @@ public class SaxParserHandler extends DefaultHandler {
         }
         else if (qName.equals("td")){
         	notice_obj.setTable_body(temp_str);	
+        }
+        else if (qName.equals("semester")) {
+            schedule_obj.setSemester(temp_str);
+        }
+        else if (qName.equals("branch")){
+            schedule_obj.setBranch(temp_str);
+        }
+        else if (qName.equals("index")){
+            schedule_obj.setIndex(temp_str);
+        }
+        else if (qName.equals("date")){
+            schedule_obj.setDate(temp_str);
+        }
+        else if (qName.equals("sitting")){
+            schedule_obj.setSitting(temp_str);
+        }
+        else if (qName.equals("code")){
+            schedule_obj.setCode(temp_str);
+        }
+        else if (qName.equals("subject")){
+            schedule_obj.setSubject(temp_str);
         }
 	}
 }

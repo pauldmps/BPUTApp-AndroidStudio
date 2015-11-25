@@ -15,6 +15,10 @@
         android:id="@+id/about"
         app:showAsAction="never"
         android:title="About"/>
-    
+
+    <item
+        android:id="@+id/exam_schedule"
+        app:showAsAction="always"
+        android:title="Exam Schedule"/>
 
 </menu>
